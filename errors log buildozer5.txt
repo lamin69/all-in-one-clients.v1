@@ -27,759 +27,6 @@ https://github.com/kivy/python-for-android.git
 # Android SDK found at /content/android-sdk
 # Android NDK found at /content/android-ndk-r25b
 # Recommended android's NDK version by p4a is: 25b
-# Installing/updating SDK platform tools if necessary
-# Run ['/content/android-sdk/tools/bin/sdkmanager', '--sdk_root=/content/android-sdk', 'platform-tools']
-# Cwd /content/android-sdk
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Observed package id 'platform-tools' in inconsistent location '/content/android-sdk/platform-tools-2' (Expected '/content/android-sdk/platform-tools')
-Warning: Already observed package id 'platform-tools' in '/content/android-sdk/platform-tools'. Skipping duplicate at '/content/android-sdk/platform-tools-2'
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: cvc-complex-type.2.4.a: Invalid content was found starting with element 'base-extension'. One of '{layoutlib}' is expected.
-Warning: unexpected element (uri:"", local:"base-extension"). Expected elements are <{}codename>,<{}layoutlib>,<{}api-level>
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Observed package id 'platform-tools' in inconsistent location '/content/android-sdk/platform-tools-2' (Expected '/content/android-sdk/platform-tools')
-Warning: Already observed package id 'platform-tools' in '/content/android-sdk/platform-tools'. Skipping duplicate at '/content/android-sdk/platform-tools-2'
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: cvc-complex-type.2.4.a: Invalid content was found starting with element 'base-extension'. One of '{layoutlib}' is expected.
-Warning: unexpected element (uri:"", local:"base-extension"). Expected elements are <{}codename>,<{}layoutlib>,<{}api-level>
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: File /root/.android/repositories.cfg could not be loaded.
-[=======================================] 100% Computing updates...             
-# Run ['/content/android-sdk/tools/bin/sdkmanager', '--sdk_root=/content/android-sdk', '--update']
-# Cwd /content/android-sdk
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Observed package id 'platform-tools' in inconsistent location '/content/android-sdk/platform-tools-2' (Expected '/content/android-sdk/platform-tools')
-Warning: Already observed package id 'platform-tools' in '/content/android-sdk/platform-tools'. Skipping duplicate at '/content/android-sdk/platform-tools-2'
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: cvc-complex-type.2.4.a: Invalid content was found starting with element 'base-extension'. One of '{layoutlib}' is expected.
-Warning: unexpected element (uri:"", local:"base-extension"). Expected elements are <{}codename>,<{}layoutlib>,<{}api-level>
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Observed package id 'platform-tools' in inconsistent location '/content/android-sdk/platform-tools-2' (Expected '/content/android-sdk/platform-tools')
-Warning: Already observed package id 'platform-tools' in '/content/android-sdk/platform-tools'. Skipping duplicate at '/content/android-sdk/platform-tools-2'
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: cvc-complex-type.2.4.a: Invalid content was found starting with element 'base-extension'. One of '{layoutlib}' is expected.
-Warning: unexpected element (uri:"", local:"base-extension"). Expected elements are <{}codename>,<{}layoutlib>,<{}api-level>
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: File /root/.android/repositories.cfg could not be loaded.
-[=======================================] 100% Computing updates...             
-# Updating SDK build tools if necessary
-# Run ['/content/android-sdk/tools/bin/sdkmanager', '--sdk_root=/content/android-sdk', '--list']
-# Cwd /content/android-sdk
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Observed package id 'platform-tools' in inconsistent location '/content/android-sdk/platform-tools-2' (Expected '/content/android-sdk/platform-tools')
-Warning: Already observed package id 'platform-tools' in '/content/android-sdk/platform-tools'. Skipping duplicate at '/content/android-sdk/platform-tools-2'
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: cvc-complex-type.2.4.a: Invalid content was found starting with element 'base-extension'. One of '{layoutlib}' is expected.
-Warning: unexpected element (uri:"", local:"base-extension"). Expected elements are <{}codename>,<{}layoutlib>,<{}api-level>
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Observed package id 'platform-tools' in inconsistent location '/content/android-sdk/platform-tools-2' (Expected '/content/android-sdk/platform-tools')
-Warning: Already observed package id 'platform-tools' in '/content/android-sdk/platform-tools'. Skipping duplicate at '/content/android-sdk/platform-tools-2'
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: cvc-complex-type.2.4.a: Invalid content was found starting with element 'base-extension'. One of '{layoutlib}' is expected.
-Warning: unexpected element (uri:"", local:"base-extension"). Expected elements are <{}codename>,<{}layoutlib>,<{}api-level>
-Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-Warning: File /root/.android/repositories.cfg could not be loaded.
-Installed packages:
-  Path                 | Version | Description                    | Location             
-  -------              | ------- | -------                        | -------              
-  build-tools;30.0.3   | 30.0.3  | Android SDK Build-Tools 30.0.3 | build-tools/30.0.3/  
-  build-tools;35.0.0   | 35.0.0  | Android SDK Build-Tools 35     | build-tools/35.0.0/  
-  emulator             | 34.2.16 | Android Emulator               | emulator/            
-  platform-tools       | 35.0.1  | Android SDK Platform-Tools     | platform-tools/      
-  platforms;android-30 | 3       | Android SDK Platform 30        | platforms/android-30/
-
-Available Packages:
-  Path                                                                                     | Version           | Description                                                          
-  -------                                                                                  | -------           | -------                                                              
-  add-ons;addon-google_apis-google-15                                                      | 3                 | Google APIs                                                          
-  add-ons;addon-google_apis-google-16                                                      | 4                 | Google APIs                                                          
-  add-ons;addon-google_apis-google-17                                                      | 4                 | Google APIs                                                          
-  add-ons;addon-google_apis-google-18                                                      | 4                 | Google APIs                                                          
-  add-ons;addon-google_apis-google-19                                                      | 20                | Google APIs                                                          
-  add-ons;addon-google_apis-google-21                                                      | 1                 | Google APIs                                                          
-  add-ons;addon-google_apis-google-22                                                      | 1                 | Google APIs                                                          
-  add-ons;addon-google_apis-google-23                                                      | 1                 | Google APIs                                                          
-  add-ons;addon-google_apis-google-24                                                      | 1                 | Google APIs                                                          
-  build-tools;19.1.0                                                                       | 19.1.0            | Android SDK Build-Tools 19.1                                         
-  build-tools;20.0.0                                                                       | 20.0.0            | Android SDK Build-Tools 20                                           
-  build-tools;21.1.2                                                                       | 21.1.2            | Android SDK Build-Tools 21.1.2                                       
-  build-tools;22.0.1                                                                       | 22.0.1            | Android SDK Build-Tools 22.0.1                                       
-  build-tools;23.0.1                                                                       | 23.0.1            | Android SDK Build-Tools 23.0.1                                       
-  build-tools;23.0.2                                                                       | 23.0.2            | Android SDK Build-Tools 23.0.2                                       
-  build-tools;23.0.3                                                                       | 23.0.3            | Android SDK Build-Tools 23.0.3                                       
-  build-tools;24.0.0                                                                       | 24.0.0            | Android SDK Build-Tools 24                                           
-  build-tools;24.0.1                                                                       | 24.0.1            | Android SDK Build-Tools 24.0.1                                       
-  build-tools;24.0.2                                                                       | 24.0.2            | Android SDK Build-Tools 24.0.2                                       
-  build-tools;24.0.3                                                                       | 24.0.3            | Android SDK Build-Tools 24.0.3                                       
-  build-tools;25.0.0                                                                       | 25.0.0            | Android SDK Build-Tools 25                                           
-  build-tools;25.0.1                                                                       | 25.0.1            | Android SDK Build-Tools 25.0.1                                       
-  build-tools;25.0.2                                                                       | 25.0.2            | Android SDK Build-Tools 25.0.2                                       
-  build-tools;25.0.3                                                                       | 25.0.3            | Android SDK Build-Tools 25.0.3                                       
-  build-tools;26.0.0                                                                       | 26.0.0            | Android SDK Build-Tools 26                                           
-  build-tools;26.0.1                                                                       | 26.0.1            | Android SDK Build-Tools 26.0.1                                       
-  build-tools;26.0.2                                                                       | 26.0.2            | Android SDK Build-Tools 26.0.2                                       
-  build-tools;26.0.3                                                                       | 26.0.3            | Android SDK Build-Tools 26.0.3                                       
-  build-tools;27.0.0                                                                       | 27.0.0            | Android SDK Build-Tools 27                                           
-  build-tools;27.0.1                                                                       | 27.0.1            | Android SDK Build-Tools 27.0.1                                       
-  build-tools;27.0.2                                                                       | 27.0.2            | Android SDK Build-Tools 27.0.2                                       
-  build-tools;27.0.3                                                                       | 27.0.3            | Android SDK Build-Tools 27.0.3                                       
-  build-tools;28.0.0                                                                       | 28.0.0            | Android SDK Build-Tools 28                                           
-  build-tools;28.0.1                                                                       | 28.0.1            | Android SDK Build-Tools 28.0.1                                       
-  build-tools;28.0.2                                                                       | 28.0.2            | Android SDK Build-Tools 28.0.2                                       
-  build-tools;28.0.3                                                                       | 28.0.3            | Android SDK Build-Tools 28.0.3                                       
-  build-tools;29.0.0                                                                       | 29.0.0            | Android SDK Build-Tools 29                                           
-  build-tools;29.0.1                                                                       | 29.0.1            | Android SDK Build-Tools 29.0.1                                       
-  build-tools;29.0.2                                                                       | 29.0.2            | Android SDK Build-Tools 29.0.2                                       
-  build-tools;29.0.3                                                                       | 29.0.3            | Android SDK Build-Tools 29.0.3                                       
-  build-tools;30.0.0                                                                       | 30.0.0            | Android SDK Build-Tools 30                                           
-  build-tools;30.0.1                                                                       | 30.0.1            | Android SDK Build-Tools 30.0.1                                       
-  build-tools;30.0.2                                                                       | 30.0.2            | Android SDK Build-Tools 30.0.2                                       
-  build-tools;30.0.3                                                                       | 30.0.3            | Android SDK Build-Tools 30.0.3                                       
-  build-tools;31.0.0                                                                       | 31.0.0            | Android SDK Build-Tools 31                                           
-  build-tools;32.0.0                                                                       | 32.0.0            | Android SDK Build-Tools 32                                           
-  build-tools;32.1.0-rc1                                                                   | 32.1.0 rc1        | Android SDK Build-Tools 32.1-rc1                                     
-  build-tools;33.0.0                                                                       | 33.0.0            | Android SDK Build-Tools 33                                           
-  build-tools;33.0.1                                                                       | 33.0.1            | Android SDK Build-Tools 33.0.1                                       
-  build-tools;33.0.2                                                                       | 33.0.2            | Android SDK Build-Tools 33.0.2                                       
-  build-tools;33.0.3                                                                       | 33.0.3            | Android SDK Build-Tools 33.0.3                                       
-  build-tools;34.0.0                                                                       | 34.0.0            | Android SDK Build-Tools 34                                           
-  build-tools;34.0.0-rc1                                                                   | 34.0.0 rc1        | Android SDK Build-Tools 34-rc1                                       
-  build-tools;34.0.0-rc2                                                                   | 34.0.0 rc2        | Android SDK Build-Tools 34-rc2                                       
-  build-tools;34.0.0-rc3                                                                   | 34.0.0 rc3        | Android SDK Build-Tools 34-rc3                                       
-  build-tools;35.0.0                                                                       | 35.0.0            | Android SDK Build-Tools 35                                           
-  build-tools;35.0.0-rc1                                                                   | 35.0.0 rc1        | Android SDK Build-Tools 35-rc1                                       
-  build-tools;35.0.0-rc2                                                                   | 35.0.0 rc2        | Android SDK Build-Tools 35-rc2                                       
-  build-tools;35.0.0-rc3                                                                   | 35.0.0 rc3        | Android SDK Build-Tools 35-rc3                                       
-  build-tools;35.0.0-rc4                                                                   | 35.0.0 rc4        | Android SDK Build-Tools 35-rc4                                       
-  cmake;3.10.2.4988404                                                                     | 3.10.2            | CMake 3.10.2.4988404                                                 
-  cmake;3.18.1                                                                             | 3.18.1            | CMake 3.18.1                                                         
-  cmake;3.22.1                                                                             | 3.22.1            | CMake 3.22.1                                                         
-  cmake;3.6.4111459                                                                        | 3.6.4111459       | CMake 3.6.4111459                                                    
-  cmdline-tools;1.0                                                                        | 1.0               | Android SDK Command-line Tools                                       
-  cmdline-tools;10.0                                                                       | 10.0              | Android SDK Command-line Tools                                       
-  cmdline-tools;11.0                                                                       | 11.0              | Android SDK Command-line Tools                                       
-  cmdline-tools;12.0                                                                       | 12.0              | Android SDK Command-line Tools                                       
-  cmdline-tools;13.0                                                                       | 13.0              | Android SDK Command-line Tools                                       
-  cmdline-tools;2.1                                                                        | 2.1               | Android SDK Command-line Tools                                       
-  cmdline-tools;3.0                                                                        | 3.0               | Android SDK Command-line Tools                                       
-  cmdline-tools;4.0                                                                        | 4.0               | Android SDK Command-line Tools                                       
-  cmdline-tools;5.0                                                                        | 5.0               | Android SDK Command-line Tools                                       
-  cmdline-tools;6.0                                                                        | 6.0               | Android SDK Command-line Tools                                       
-  cmdline-tools;7.0                                                                        | 7.0               | Android SDK Command-line Tools                                       
-  cmdline-tools;8.0                                                                        | 8.0               | Android SDK Command-line Tools                                       
-  cmdline-tools;9.0                                                                        | 9.0               | Android SDK Command-line Tools                                       
-  cmdline-tools;latest                                                                     | 13.0              | Android SDK Command-line Tools (latest)                              
-  emulator                                                                                 | 34.2.16           | Android Emulator                                                     
-  extras;android;m2repository                                                              | 47.0.0            | Android Support Repository                                           
-  extras;google;auto                                                                       | 2.0               | Android Auto Desktop Head Unit Emulator                              
-  extras;google;google_play_services                                                       | 49                | Google Play services                                                 
-  extras;google;instantapps                                                                | 1.9.0             | Google Play Instant Development SDK                                  
-  extras;google;m2repository                                                               | 58                | Google Repository                                                    
-  extras;google;market_apk_expansion                                                       | 1                 | Google Play APK Expansion library                                    
-  extras;google;market_licensing                                                           | 1                 | Google Play Licensing Library                                        
-  extras;google;simulators                                                                 | 1                 | Android Auto API Simulators                                          
-  extras;google;webdriver                                                                  | 2                 | Google Web Driver                                                    
-  extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.0        | 1                 | Solver for ConstraintLayout 1.0.0                                    
-  extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.0-alpha4 | 1                 | com.android.support.constraint:constraint-layout-solver:1.0.0-alpha4 
-  extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.0-alpha8 | 1                 | Solver for ConstraintLayout 1.0.0-alpha8                             
-  extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.0-beta1  | 1                 | Solver for ConstraintLayout 1.0.0-beta1                              
-  extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.0-beta2  | 1                 | Solver for ConstraintLayout 1.0.0-beta2                              
-  extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.0-beta3  | 1                 | Solver for ConstraintLayout 1.0.0-beta3                              
-  extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.0-beta4  | 1                 | Solver for ConstraintLayout 1.0.0-beta4                              
-  extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.0-beta5  | 1                 | Solver for ConstraintLayout 1.0.0-beta5                              
-  extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.1        | 1                 | Solver for ConstraintLayout 1.0.1                                    
-  extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.2        | 1                 | Solver for ConstraintLayout 1.0.2                                    
-  extras;m2repository;com;android;support;constraint;constraint-layout;1.0.0               | 1                 | ConstraintLayout for Android 1.0.0                                   
-  extras;m2repository;com;android;support;constraint;constraint-layout;1.0.0-alpha4        | 1                 | com.android.support.constraint:constraint-layout:1.0.0-alpha4        
-  extras;m2repository;com;android;support;constraint;constraint-layout;1.0.0-alpha8        | 1                 | ConstraintLayout for Android 1.0.0-alpha8                            
-  extras;m2repository;com;android;support;constraint;constraint-layout;1.0.0-beta1         | 1                 | ConstraintLayout for Android 1.0.0-beta1                             
-  extras;m2repository;com;android;support;constraint;constraint-layout;1.0.0-beta2         | 1                 | ConstraintLayout for Android 1.0.0-beta2                             
-  extras;m2repository;com;android;support;constraint;constraint-layout;1.0.0-beta3         | 1                 | ConstraintLayout for Android 1.0.0-beta3                             
-  extras;m2repository;com;android;support;constraint;constraint-layout;1.0.0-beta4         | 1                 | ConstraintLayout for Android 1.0.0-beta4                             
-  extras;m2repository;com;android;support;constraint;constraint-layout;1.0.0-beta5         | 1                 | ConstraintLayout for Android 1.0.0-beta5                             
-  extras;m2repository;com;android;support;constraint;constraint-layout;1.0.1               | 1                 | ConstraintLayout for Android 1.0.1                                   
-  extras;m2repository;com;android;support;constraint;constraint-layout;1.0.2               | 1                 | ConstraintLayout for Android 1.0.2                                   
-  ndk-bundle                                                                               | 22.1.7171670      | NDK                                                                  
-  ndk;16.1.4479499                                                                         | 16.1.4479499      | NDK (Side by side) 16.1.4479499                                      
-  ndk;17.2.4988734                                                                         | 17.2.4988734      | NDK (Side by side) 17.2.4988734                                      
-  ndk;18.1.5063045                                                                         | 18.1.5063045      | NDK (Side by side) 18.1.5063045                                      
-  ndk;19.2.5345600                                                                         | 19.2.5345600      | NDK (Side by side) 19.2.5345600                                      
-  ndk;20.0.5594570                                                                         | 20.0.5594570      | NDK (Side by side) 20.0.5594570                                      
-  ndk;20.1.5948944                                                                         | 20.1.5948944      | NDK (Side by side) 20.1.5948944                                      
-  ndk;21.0.6113669                                                                         | 21.0.6113669      | NDK (Side by side) 21.0.6113669                                      
-  ndk;21.1.6352462                                                                         | 21.1.6352462      | NDK (Side by side) 21.1.6352462                                      
-  ndk;21.2.6472646                                                                         | 21.2.6472646      | NDK (Side by side) 21.2.6472646                                      
-  ndk;21.3.6528147                                                                         | 21.3.6528147      | NDK (Side by side) 21.3.6528147                                      
-  ndk;21.4.7075529                                                                         | 21.4.7075529      | NDK (Side by side) 21.4.7075529                                      
-  ndk;22.0.7026061                                                                         | 22.0.7026061      | NDK (Side by side) 22.0.7026061                                      
-  ndk;22.1.7171670                                                                         | 22.1.7171670      | NDK (Side by side) 22.1.7171670                                      
-  ndk;23.0.7599858                                                                         | 23.0.7599858      | NDK (Side by side) 23.0.7599858                                      
-  ndk;23.1.7779620                                                                         | 23.1.7779620      | NDK (Side by side) 23.1.7779620                                      
-  ndk;23.2.8568313                                                                         | 23.2.8568313      | NDK (Side by side) 23.2.8568313                                      
-  ndk;24.0.8215888                                                                         | 24.0.8215888      | NDK (Side by side) 24.0.8215888                                      
-  ndk;25.0.8775105                                                                         | 25.0.8775105      | NDK (Side by side) 25.0.8775105                                      
-  ndk;25.1.8937393                                                                         | 25.1.8937393      | NDK (Side by side) 25.1.8937393                                      
-  ndk;25.2.9519653                                                                         | 25.2.9519653      | NDK (Side by side) 25.2.9519653                                      
-  ndk;26.0.10792818                                                                        | 26.0.10792818     | NDK (Side by side) 26.0.10792818                                     
-  ndk;26.1.10909125                                                                        | 26.1.10909125     | NDK (Side by side) 26.1.10909125                                     
-  ndk;26.2.11394342                                                                        | 26.2.11394342     | NDK (Side by side) 26.2.11394342                                     
-  ndk;26.3.11579264                                                                        | 26.3.11579264     | NDK (Side by side) 26.3.11579264                                     
-  ndk;27.0.11718014                                                                        | 27.0.11718014 rc1 | NDK (Side by side) 27.0.11718014                                     
-  ndk;27.0.11902837                                                                        | 27.0.11902837 rc2 | NDK (Side by side) 27.0.11902837                                     
-  platform-tools                                                                           | 35.0.1            | Android SDK Platform-Tools                                           
-  platforms;android-10                                                                     | 2                 | Android SDK Platform 10                                              
-  platforms;android-11                                                                     | 2                 | Android SDK Platform 11                                              
-  platforms;android-12                                                                     | 3                 | Android SDK Platform 12                                              
-  platforms;android-13                                                                     | 1                 | Android SDK Platform 13                                              
-  platforms;android-14                                                                     | 4                 | Android SDK Platform 14                                              
-  platforms;android-15                                                                     | 5                 | Android SDK Platform 15                                              
-  platforms;android-16                                                                     | 5                 | Android SDK Platform 16                                              
-  platforms;android-17                                                                     | 3                 | Android SDK Platform 17                                              
-  platforms;android-18                                                                     | 3                 | Android SDK Platform 18                                              
-  platforms;android-19                                                                     | 4                 | Android SDK Platform 19                                              
-  platforms;android-20                                                                     | 2                 | Android SDK Platform 20                                              
-  platforms;android-21                                                                     | 2                 | Android SDK Platform 21                                              
-  platforms;android-22                                                                     | 2                 | Android SDK Platform 22                                              
-  platforms;android-23                                                                     | 3                 | Android SDK Platform 23                                              
-  platforms;android-24                                                                     | 2                 | Android SDK Platform 24                                              
-  platforms;android-25                                                                     | 3                 | Android SDK Platform 25                                              
-  platforms;android-26                                                                     | 2                 | Android SDK Platform 26                                              
-  platforms;android-27                                                                     | 3                 | Android SDK Platform 27                                              
-  platforms;android-28                                                                     | 6                 | Android SDK Platform 28                                              
-  platforms;android-29                                                                     | 5                 | Android SDK Platform 29                                              
-  platforms;android-30                                                                     | 3                 | Android SDK Platform 30                                              
-  platforms;android-31                                                                     | 1                 | Android SDK Platform 31                                              
-  platforms;android-32                                                                     | 1                 | Android SDK Platform 32                                              
-  platforms;android-33                                                                     | 3                 | Android SDK Platform 33                                              
-  platforms;android-34                                                                     | 3                 | Android SDK Platform 34                                              
-  platforms;android-35                                                                     | 1                 | Android SDK Platform 35                                              
-  platforms;android-7                                                                      | 3                 | Android SDK Platform 7                                               
-  platforms;android-8                                                                      | 3                 | Android SDK Platform 8                                               
-  platforms;android-9                                                                      | 2                 | Android SDK Platform 9                                               
-  platforms;android-TiramisuPrivacySandbox                                                 | 9                 | Android SDK Platform TiramisuPrivacySandbox                          
-  platforms;android-UpsideDownCakePrivacySandbox                                           | 3                 | Android SDK Platform UpsideDownCakePrivacySandbox                    
-  platforms;android-VanillaIceCream                                                        | 4                 | Android SDK Platform VanillaIceCream                                 
-  skiaparser;1                                                                             | 6                 | Layout Inspector image server for API 29-30                          
-  skiaparser;2                                                                             | 3                 | Layout Inspector image server for API S                              
-  skiaparser;3                                                                             | 4                 | Layout Inspector image server for API 31-35                          
-  sources;android-15                                                                       | 2                 | Sources for Android 15                                               
-  sources;android-16                                                                       | 2                 | Sources for Android 16                                               
-  sources;android-17                                                                       | 1                 | Sources for Android 17                                               
-  sources;android-18                                                                       | 1                 | Sources for Android 18                                               
-  sources;android-19                                                                       | 2                 | Sources for Android 19                                               
-  sources;android-20                                                                       | 1                 | Sources for Android 20                                               
-  sources;android-21                                                                       | 1                 | Sources for Android 21                                               
-  sources;android-22                                                                       | 1                 | Sources for Android 22                                               
-  sources;android-23                                                                       | 1                 | Sources for Android 23                                               
-  sources;android-24                                                                       | 1                 | Sources for Android 24                                               
-  sources;android-25                                                                       | 1                 | Sources for Android 25                                               
-  sources;android-26                                                                       | 1                 | Sources for Android 26                                               
-  sources;android-27                                                                       | 1                 | Sources for Android 27                                               
-  sources;android-28                                                                       | 1                 | Sources for Android 28                                               
-  sources;android-29                                                                       | 1                 | Sources for Android 29                                               
-  sources;android-30                                                                       | 1                 | Sources for Android 30                                               
-  sources;android-31                                                                       | 1                 | Sources for Android 31                                               
-  sources;android-32                                                                       | 1                 | Sources for Android 32                                               
-  sources;android-33                                                                       | 1                 | Sources for Android 33                                               
-  sources;android-34                                                                       | 2                 | Sources for Android 34                                               
-  sources;android-35                                                                       | 1                 | Sources for Android 35                                               
-  system-images;android-10;default;armeabi-v7a                                             | 5                 | ARM EABI v7a System Image                                            
-  system-images;android-10;default;x86                                                     | 5                 | Intel x86 Atom System Image                                          
-  system-images;android-10;google_apis;armeabi-v7a                                         | 6                 | Google APIs ARM EABI v7a System Image                                
-  system-images;android-10;google_apis;x86                                                 | 6                 | Google APIs Intel x86 Atom System Image                              
-  system-images;android-14;default;armeabi-v7a                                             | 2                 | ARM EABI v7a System Image                                            
-  system-images;android-15;default;armeabi-v7a                                             | 5                 | ARM EABI v7a System Image                                            
-  system-images;android-15;default;x86                                                     | 7                 | Intel x86 Atom System Image                                          
-  system-images;android-15;google_apis;armeabi-v7a                                         | 6                 | Google APIs ARM EABI v7a System Image                                
-  system-images;android-15;google_apis;x86                                                 | 7                 | Google APIs Intel x86 Atom System Image                              
-  system-images;android-16;default;armeabi-v7a                                             | 6                 | ARM EABI v7a System Image                                            
-  system-images;android-16;default;mips                                                    | 1                 | MIPS System Image                                                    
-  system-images;android-16;default;x86                                                     | 7                 | Intel x86 Atom System Image                                          
-  system-images;android-16;google_apis;armeabi-v7a                                         | 6                 | Google APIs ARM EABI v7a System Image                                
-  system-images;android-16;google_apis;x86                                                 | 7                 | Google APIs Intel x86 Atom System Image                              
-  system-images;android-17;default;armeabi-v7a                                             | 6                 | ARM EABI v7a System Image                                            
-  system-images;android-17;default;mips                                                    | 1                 | MIPS System Image                                                    
-  system-images;android-17;default;x86                                                     | 7                 | Intel x86 Atom System Image                                          
-  system-images;android-17;google_apis;armeabi-v7a                                         | 6                 | Google APIs ARM EABI v7a System Image                                
-  system-images;android-17;google_apis;x86                                                 | 7                 | Google APIs Intel x86 Atom System Image                              
-  system-images;android-18;default;armeabi-v7a                                             | 5                 | ARM EABI v7a System Image                                            
-  system-images;android-18;default;x86                                                     | 4                 | Intel x86 Atom System Image                                          
-  system-images;android-18;google_apis;armeabi-v7a                                         | 6                 | Google APIs ARM EABI v7a System Image                                
-  system-images;android-18;google_apis;x86                                                 | 6                 | Google APIs Intel x86 Atom System Image                              
-  system-images;android-19;default;armeabi-v7a                                             | 5                 | ARM EABI v7a System Image                                            
-  system-images;android-19;default;x86                                                     | 6                 | Intel x86 Atom System Image                                          
-  system-images;android-19;google_apis;armeabi-v7a                                         | 40                | Google APIs ARM EABI v7a System Image                                
-  system-images;android-19;google_apis;x86                                                 | 40                | Google APIs Intel x86 Atom System Image                              
-  system-images;android-21;android-tv;armeabi-v7a                                          | 3                 | Android TV ARM EABI v7a System Image                                 
-  system-images;android-21;android-tv;x86                                                  | 3                 | Android TV Intel x86 Atom System Image                               
-  system-images;android-21;default;arm64-v8a                                               | 4                 | ARM 64 v8a System Image                                              
-  system-images;android-21;default;armeabi-v7a                                             | 4                 | ARM EABI v7a System Image                                            
-  system-images;android-21;default;x86                                                     | 5                 | Intel x86 Atom System Image                                          
-  system-images;android-21;default;x86_64                                                  | 5                 | Intel x86_64 Atom System Image                                       
-  system-images;android-21;google_apis;arm64-v8a                                           | 32                | Google APIs ARM 64 v8a System Image                                  
-  system-images;android-21;google_apis;armeabi-v7a                                         | 32                | Google APIs ARM EABI v7a System Image                                
-  system-images;android-21;google_apis;x86                                                 | 32                | Google APIs Intel x86 Atom System Image                              
-  system-images;android-21;google_apis;x86_64                                              | 32                | Google APIs Intel x86_64 Atom System Image                           
-  system-images;android-22;android-tv;x86                                                  | 3                 | Android TV Intel x86 Atom System Image                               
-  system-images;android-22;default;arm64-v8a                                               | 2                 | ARM 64 v8a System Image                                              
-  system-images;android-22;default;armeabi-v7a                                             | 2                 | ARM EABI v7a System Image                                            
-  system-images;android-22;default;x86                                                     | 6                 | Intel x86 Atom System Image                                          
-  system-images;android-22;default;x86_64                                                  | 6                 | Intel x86_64 Atom System Image                                       
-  system-images;android-22;google_apis;arm64-v8a                                           | 26                | Google APIs ARM 64 v8a System Image                                  
-  system-images;android-22;google_apis;armeabi-v7a                                         | 26                | Google APIs ARM EABI v7a System Image                                
-  system-images;android-22;google_apis;x86                                                 | 26                | Google APIs Intel x86 Atom System Image                              
-  system-images;android-22;google_apis;x86_64                                              | 26                | Google APIs Intel x86_64 Atom System Image                           
-  system-images;android-23;android-tv;armeabi-v7a                                          | 12                | Android TV ARM EABI v7a System Image                                 
-  system-images;android-23;android-tv;x86                                                  | 21                | Android TV Intel x86 Atom System Image                               
-  system-images;android-23;default;arm64-v8a                                               | 7                 | ARM 64 v8a System Image                                              
-  system-images;android-23;default;armeabi-v7a                                             | 6                 | ARM EABI v7a System Image                                            
-  system-images;android-23;default;x86                                                     | 10                | Intel x86 Atom System Image                                          
-  system-images;android-23;default;x86_64                                                  | 10                | Intel x86_64 Atom System Image                                       
-  system-images;android-23;google_apis;arm64-v8a                                           | 33                | Google APIs ARM 64 v8a System Image                                  
-  system-images;android-23;google_apis;armeabi-v7a                                         | 33                | Google APIs ARM EABI v7a System Image                                
-  system-images;android-23;google_apis;x86                                                 | 33                | Google APIs Intel x86 Atom System Image                              
-  system-images;android-23;google_apis;x86_64                                              | 33                | Google APIs Intel x86_64 Atom System Image                           
-  system-images;android-24;android-tv;x86                                                  | 22                | Android TV Intel x86 Atom System Image                               
-  system-images;android-24;default;arm64-v8a                                               | 9                 | ARM 64 v8a System Image                                              
-  system-images;android-24;default;armeabi-v7a                                             | 7                 | ARM EABI v7a System Image                                            
-  system-images;android-24;default;x86                                                     | 8                 | Intel x86 Atom System Image                                          
-  system-images;android-24;default;x86_64                                                  | 8                 | Intel x86_64 Atom System Image                                       
-  system-images;android-24;google_apis;arm64-v8a                                           | 29                | Google APIs ARM 64 v8a System Image                                  
-  system-images;android-24;google_apis;x86                                                 | 27                | Google APIs Intel x86 Atom System Image                              
-  system-images;android-24;google_apis;x86_64                                              | 27                | Google APIs Intel x86_64 Atom System Image                           
-  system-images;android-24;google_apis_playstore;x86                                       | 19                | Google Play Intel x86 Atom System Image                              
-  system-images;android-25;android-tv;x86                                                  | 16                | Android TV Intel x86 Atom System Image                               
-  system-images;android-25;android-wear;armeabi-v7a                                        | 3                 | Android Wear ARM EABI v7a System Image                               
-  system-images;android-25;android-wear;x86                                                | 3                 | Android Wear Intel x86 Atom System Image                             
-  system-images;android-25;default;arm64-v8a                                               | 2                 | ARM 64 v8a System Image                                              
-  system-images;android-25;default;x86                                                     | 1                 | Intel x86 Atom System Image                                          
-  system-images;android-25;default;x86_64                                                  | 1                 | Intel x86_64 Atom System Image                                       
-  system-images;android-25;google_apis;arm64-v8a                                           | 20                | Google APIs ARM 64 v8a System Image                                  
-  system-images;android-25;google_apis;armeabi-v7a                                         | 18                | Google APIs ARM EABI v7a System Image                                
-  system-images;android-25;google_apis;x86                                                 | 18                | Google APIs Intel x86 Atom System Image                              
-  system-images;android-25;google_apis;x86_64                                              | 18                | Google APIs Intel x86_64 Atom System Image                           
-  system-images;android-25;google_apis_playstore;x86                                       | 9                 | Google Play Intel x86 Atom System Image                              
-  system-images;android-26;android-tv;x86                                                  | 14                | Android TV Intel x86 Atom System Image                               
-  system-images;android-26;android-wear;x86                                                | 4                 | Android Wear Intel x86 Atom System Image                             
-  system-images;android-26;default;arm64-v8a                                               | 2                 | ARM 64 v8a System Image                                              
-  system-images;android-26;default;x86                                                     | 1                 | Intel x86 Atom System Image                                          
-  system-images;android-26;default;x86_64                                                  | 1                 | Intel x86_64 Atom System Image                                       
-  system-images;android-26;google_apis;arm64-v8a                                           | 3                 | Google APIs ARM 64 v8a System Image                                  
-  system-images;android-26;google_apis;x86                                                 | 16                | Google APIs Intel x86 Atom System Image                              
-  system-images;android-26;google_apis;x86_64                                              | 16                | Google APIs Intel x86_64 Atom System Image                           
-  system-images;android-26;google_apis_playstore;x86                                       | 7                 | Google Play Intel x86 Atom System Image                              
-  system-images;android-27;android-tv;x86                                                  | 9                 | Android TV Intel x86 Atom System Image                               
-  system-images;android-27;default;arm64-v8a                                               | 2                 | ARM 64 v8a System Image                                              
-  system-images;android-27;default;x86                                                     | 1                 | Intel x86 Atom System Image                                          
-  system-images;android-27;default;x86_64                                                  | 1                 | Intel x86_64 Atom System Image                                       
-  system-images;android-27;google_apis;arm64-v8a                                           | 3                 | Google APIs ARM 64 v8a System Image                                  
-  system-images;android-27;google_apis;x86                                                 | 11                | Google APIs Intel x86 Atom System Image                              
-  system-images;android-27;google_apis_playstore;x86                                       | 3                 | Google Play Intel x86 Atom System Image                              
-  system-images;android-28;android-tv;x86                                                  | 10                | Android TV Intel x86 Atom System Image                               
-  system-images;android-28;android-wear;x86                                                | 9                 | Wear OS Intel x86 Atom System Image                                  
-  system-images;android-28;default;arm64-v8a                                               | 2                 | ARM 64 v8a System Image                                              
-  system-images;android-28;default;x86                                                     | 4                 | Intel x86 Atom System Image                                          
-  system-images;android-28;default;x86_64                                                  | 4                 | Intel x86_64 Atom System Image                                       
-  system-images;android-28;google_apis;arm64-v8a                                           | 2                 | Google APIs ARM 64 v8a System Image                                  
-  system-images;android-28;google_apis;x86                                                 | 12                | Google APIs Intel x86 Atom System Image                              
-  system-images;android-28;google_apis;x86_64                                              | 11                | Google APIs Intel x86_64 Atom System Image                           
-  system-images;android-28;google_apis_playstore;arm64-v8a                                 | 2                 | Google ARM64-V8a Play ARM 64 v8a System Image                        
-  system-images;android-28;google_apis_playstore;x86                                       | 9                 | Google Play Intel x86 Atom System Image                              
-  system-images;android-28;google_apis_playstore;x86_64                                    | 8                 | Google Play Intel x86_64 Atom System Image                           
-  system-images;android-29;android-tv;x86                                                  | 3                 | Android TV Intel x86 Atom System Image                               
-  system-images;android-29;default;arm64-v8a                                               | 8                 | ARM 64 v8a System Image                                              
-  system-images;android-29;default;x86                                                     | 8                 | Intel x86 Atom System Image                                          
-  system-images;android-29;default;x86_64                                                  | 8                 | Intel x86_64 Atom System Image                                       
-  system-images;android-29;google_apis;arm64-v8a                                           | 13                | Google APIs ARM 64 v8a System Image                                  
-  system-images;android-29;google_apis;x86                                                 | 12                | Google APIs Intel x86 Atom System Image                              
-  system-images;android-29;google_apis;x86_64                                              | 12                | Google APIs Intel x86_64 Atom System Image                           
-  system-images;android-29;google_apis_playstore;arm64-v8a                                 | 9                 | Google Play ARM 64 v8a System Image                                  
-  system-images;android-29;google_apis_playstore;x86                                       | 8                 | Google Play Intel x86 Atom System Image                              
-  system-images;android-29;google_apis_playstore;x86_64                                    | 8                 | Google Play Intel x86_64 Atom System Image                           
-  system-images;android-30;android-tv;x86                                                  | 4                 | Android TV Intel x86 Atom System Image                               
-  system-images;android-30;android-wear-cn;arm64-v8a                                       | 12                | China version of Wear OS 3 ARM 64 v8a System Image                   
-  system-images;android-30;android-wear-cn;x86                                             | 12                | China version of Wear OS 3 Intel x86 Atom System Image               
-  system-images;android-30;android-wear;arm64-v8a                                          | 12                | Wear OS 3 ARM 64 v8a System Image                                    
-  system-images;android-30;android-wear;x86                                                | 12                | Wear OS 3 Intel x86 Atom System Image                                
-  system-images;android-30;aosp_atd;arm64-v8a                                              | 2                 | AOSP ATD ARM 64 v8a System Image                                     
-  system-images;android-30;aosp_atd;x86                                                    | 1                 | AOSP ATD Intel x86 Atom System Image                                 
-  system-images;android-30;aosp_atd;x86_64                                                 | 2                 | AOSP ATD Intel x86_64 Atom System Image                              
-  system-images;android-30;default;arm64-v8a                                               | 2                 | ARM 64 v8a System Image                                              
-  system-images;android-30;default;x86_64                                                  | 11                | Intel x86_64 Atom System Image                                       
-  system-images;android-30;google-tv;x86                                                   | 4                 | Google TV Intel x86 Atom System Image                                
-  system-images;android-30;google_apis;arm64-v8a                                           | 14                | Google APIs ARM 64 v8a System Image                                  
-  system-images;android-30;google_apis;x86                                                 | 12                | Google APIs Intel x86 Atom System Image                              
-  system-images;android-30;google_apis;x86_64                                              | 12                | Google APIs Intel x86_64 Atom System Image                           
-  system-images;android-30;google_apis_playstore;arm64-v8a                                 | 10                | Google Play ARM 64 v8a System Image                                  
-  system-images;android-30;google_apis_playstore;x86                                       | 9                 | Google Play Intel x86 Atom System Image                              
-  system-images;android-30;google_apis_playstore;x86_64                                    | 10                | Google Play Intel x86_64 Atom System Image                           
-  system-images;android-30;google_atd;arm64-v8a                                            | 2                 | Google APIs ATD ARM 64 v8a System Image                              
-  system-images;android-30;google_atd;x86                                                  | 1                 | Google APIs ATD Intel x86 Atom System Image                          
-  system-images;android-30;google_atd;x86_64                                               | 2                 | Google APIs ATD Intel x86_64 Atom System Image                       
-  system-images;android-31;android-tv;arm64-v8a                                            | 4                 | Android TV ARM 64 v8a System Image                                   
-  system-images;android-31;android-tv;x86                                                  | 4                 | Android TV Intel x86 Atom System Image                               
-  system-images;android-31;aosp_atd;arm64-v8a                                              | 1                 | AOSP ATD ARM 64 v8a System Image                                     
-  system-images;android-31;aosp_atd;x86_64                                                 | 2                 | AOSP ATD Intel x86_64 Atom System Image                              
-  system-images;android-31;default;arm64-v8a                                               | 4                 | ARM 64 v8a System Image                                              
-  system-images;android-31;default;x86_64                                                  | 5                 | Intel x86_64 Atom System Image                                       
-  system-images;android-31;google-tv;arm64-v8a                                             | 4                 | Google TV ARM 64 v8a System Image                                    
-  system-images;android-31;google-tv;x86                                                   | 4                 | Google TV Intel x86 Atom System Image                                
-  system-images;android-31;google_apis;arm64-v8a                                           | 11                | Google APIs ARM 64 v8a System Image                                  
-  system-images;android-31;google_apis;x86_64                                              | 14                | Google APIs Intel x86_64 Atom System Image                           
-  system-images;android-31;google_apis_playstore;arm64-v8a                                 | 9                 | Google Play ARM 64 v8a System Image                                  
-  system-images;android-31;google_apis_playstore;x86_64                                    | 9                 | Google Play Intel x86_64 Atom System Image                           
-  system-images;android-31;google_atd;arm64-v8a                                            | 1                 | Google APIs ATD ARM 64 v8a System Image                              
-  system-images;android-31;google_atd;x86_64                                               | 2                 | Google APIs ATD Intel x86_64 Atom System Image                       
-  system-images;android-32;android-desktop;arm64-v8a                                       | 5                 | Desktop ARM 64 v8a System Image                                      
-  system-images;android-32;android-desktop;x86_64                                          | 5                 | Desktop Intel x86_64 Atom System Image                               
-  system-images;android-32;aosp_atd;arm64-v8a                                              | 1                 | AOSP ATD ARM 64 v8a System Image                                     
-  system-images;android-32;aosp_atd;x86_64                                                 | 1                 | AOSP ATD Intel x86_64 Atom System Image                              
-  system-images;android-32;default;arm64-v8a                                               | 2                 | ARM 64 v8a System Image                                              
-  system-images;android-32;default;x86_64                                                  | 2                 | Intel x86_64 Atom System Image                                       
-  system-images;android-32;google_apis;arm64-v8a                                           | 8                 | Google APIs ARM 64 v8a System Image                                  
-  system-images;android-32;google_apis;x86_64                                              | 8                 | Google APIs Intel x86_64 Atom System Image                           
-  system-images;android-32;google_apis_playstore;arm64-v8a                                 | 4                 | Google Play ARM 64 v8a System Image                                  
-  system-images;android-32;google_apis_playstore;x86_64                                    | 4                 | Google Play Intel x86_64 Atom System Image                           
-  system-images;android-32;google_atd;arm64-v8a                                            | 1                 | Google APIs ATD ARM 64 v8a System Image                              
-  system-images;android-32;google_atd;x86_64                                               | 1                 | Google APIs ATD Intel x86_64 Atom System Image                       
-  system-images;android-33;android-automotive;arm64-v8a                                    | 3                 | Android Automotive with Google APIs ARM 64 v8a System Image          
-  system-images;android-33;android-automotive;x86_64                                       | 3                 | Android Automotive with Google APIs Intel x86_64 Atom System Image   
-  system-images;android-33;android-desktop;arm64-v8a                                       | 4                 | Desktop ARM 64 v8a System Image                                      
-  system-images;android-33;android-desktop;x86_64                                          | 4                 | Desktop Intel x86_64 Atom System Image                               
-  system-images;android-33;android-tv;arm64-v8a                                            | 5                 | Android TV ARM 64 v8a System Image                                   
-  system-images;android-33;android-tv;x86                                                  | 5                 | Android TV Intel x86 Atom System Image                               
-  system-images;android-33;android-wear;arm64-v8a                                          | 3                 | Wear OS 4 ARM 64 v8a System Image                                    
-  system-images;android-33;android-wear;x86_64                                             | 3                 | Wear OS 4 Intel x86_64 Atom System Image                             
-  system-images;android-33;aosp_atd;arm64-v8a                                              | 2                 | AOSP ATD ARM 64 v8a System Image                                     
-  system-images;android-33;aosp_atd;x86_64                                                 | 2                 | AOSP ATD Intel x86_64 Atom System Image                              
-  system-images;android-33;default;arm64-v8a                                               | 2                 | ARM 64 v8a System Image                                              
-  system-images;android-33;default;x86_64                                                  | 2                 | Intel x86_64 Atom System Image                                       
-  system-images;android-33;google-tv;arm64-v8a                                             | 5                 | Google TV ARM 64 v8a System Image                                    
-  system-images;android-33;google-tv;x86                                                   | 5                 | Google TV Intel x86 Atom System Image                                
-  system-images;android-33;google_apis;arm64-v8a                                           | 15                | Google APIs ARM 64 v8a System Image                                  
-  system-images;android-33;google_apis;x86_64                                              | 15                | Google APIs Intel x86_64 Atom System Image                           
-  system-images;android-33;google_apis_playstore;arm64-v8a                                 | 7                 | Google Play ARM 64 v8a System Image                                  
-  system-images;android-33;google_apis_playstore;x86_64                                    | 7                 | Google Play Intel x86_64 Atom System Image                           
-  system-images;android-33;google_atd;arm64-v8a                                            | 2                 | Google APIs ATD ARM 64 v8a System Image                              
-  system-images;android-33;google_atd;x86_64                                               | 2                 | Google APIs ATD Intel x86_64 Atom System Image                       
-  system-images;android-34-ext10;google_apis_playstore;arm64-v8a                           | 2                 | Google Play ARM 64 v8a System Image                                  
-  system-images;android-34-ext10;google_apis_playstore;x86_64                              | 2                 | Google Play Intel x86_64 Atom System Image                           
-  system-images;android-34-ext11;google_apis_playstore;arm64-v8a                           | 1                 | Google Play ARM 64 v8a System Image                                  
-  system-images;android-34-ext11;google_apis_playstore;x86_64                              | 1                 | Google Play Intel x86_64 Atom System Image                           
-  system-images;android-34-ext12;google_apis_playstore;arm64-v8a                           | 1                 | Google Play ARM 64 v8a System Image                                  
-  system-images;android-34-ext12;google_apis_playstore;x86_64                              | 1                 | Google Play Intel x86_64 Atom System Image                           
-  system-images;android-34-ext8;google_apis_playstore;arm64-v8a                            | 2                 | Google Play ARM 64 v8a System Image                                  
-  system-images;android-34-ext8;google_apis_playstore;x86_64                               | 2                 | Google Play Intel x86_64 Atom System Image                           
-  system-images;android-34;android-tv;arm64-v8a                                            | 3                 | Android TV ARM 64 v8a System Image                                   
-  system-images;android-34;android-tv;x86                                                  | 3                 | Android TV Intel x86 Atom System Image                               
-  system-images;android-34;aosp_atd;arm64-v8a                                              | 2                 | AOSP ATD ARM 64 v8a System Image                                     
-  system-images;android-34;aosp_atd;x86_64                                                 | 2                 | AOSP ATD Intel x86_64 Atom System Image                              
-  system-images;android-34;default;arm64-v8a                                               | 4                 | ARM 64 v8a System Image                                              
-  system-images;android-34;default;x86_64                                                  | 4                 | Intel x86_64 Atom System Image                                       
-  system-images;android-34;google-tv;arm64-v8a                                             | 3                 | Google TV ARM 64 v8a System Image                                    
-  system-images;android-34;google-tv;x86                                                   | 3                 | Google TV Intel x86 Atom System Image                                
-  system-images;android-34;google_apis;arm64-v8a                                           | 13                | Google APIs ARM 64 v8a System Image                                  
-  system-images;android-34;google_apis;x86_64                                              | 13                | Google APIs Intel x86_64 Atom System Image                           
-  system-images;android-34;google_apis_playstore;arm64-v8a                                 | 13                | Google Play ARM 64 v8a System Image                                  
-  system-images;android-34;google_apis_playstore;x86_64                                    | 13                | Google Play Intel x86_64 Atom System Image                           
-  system-images;android-34;google_atd;arm64-v8a                                            | 1                 | Google APIs ATD ARM 64 System Image                                  
-  system-images;android-34;google_atd;x86_64                                               | 1                 | Google APIs ATD Intel x86_64 Atom System Image                       
-  system-images;android-35;google_apis;arm64-v8a                                           | 6                 | Google APIs ARM 64 v8a System Image                                  
-  system-images;android-35;google_apis;x86_64                                              | 6                 | Google APIs Intel x86_64 Atom System Image                           
-  system-images;android-35;google_apis_playstore;arm64-v8a                                 | 6                 | Google Play ARM 64 v8a System Image                                  
-  system-images;android-35;google_apis_playstore;x86_64                                    | 6                 | Google Play Intel x86_64 Atom System Image                           
-  system-images;android-TiramisuPrivacySandbox;google_apis;arm64-v8a                       | 1                 | Google APIs ARM 64 v8a System Image                                  
-  system-images;android-TiramisuPrivacySandbox;google_apis;x86_64                          | 1                 | Google APIs Intel x86_64 Atom System Image                           
-  system-images;android-TiramisuPrivacySandbox;google_apis_playstore;arm64-v8a             | 9                 | Google Play ARM 64 v8a System Image                                  
-  system-images;android-TiramisuPrivacySandbox;google_apis_playstore;x86_64                | 9                 | Google Play Intel x86_64 Atom System Image                           
-  system-images;android-UpsideDownCakePrivacySandbox;google_apis_playstore;arm64-v8a       | 3                 | Google Play ARM 64 v8a System Image                                  
-  system-images;android-UpsideDownCakePrivacySandbox;google_apis_playstore;x86_64          | 3                 | Google Play Intel x86_64 Atom System Image                           
-  system-images;android-VanillaIceCream;google_apis;arm64-v8a                              | 5                 | Google APIs ARM 64 v8a System Image                                  
-  system-images;android-VanillaIceCream;google_apis;x86_64                                 | 5                 | Google APIs Intel x86_64 Atom System Image                           
-  system-images;android-VanillaIceCream;google_apis_playstore;arm64-v8a                    | 5                 | Google Play ARM 64 v8a System Image                                  
-  system-images;android-VanillaIceCream;google_apis_playstore;x86_64                       | 5                 | Google Play Intel x86_64 Atom System Image                           
-  system-images;android-VanillaIceCream;google_apis_ps16k;arm64-v8a                        | 1                 | Google APIs Experimental 16k Page Size ARM 64 v8a System Image       
-  system-images;android-VanillaIceCream;google_apis_ps16k;x86_64                           | 1                 | Google APIs Experimental 16k Page Size Intel x86_64 Atom System Image
-
-# Check that aidl can be executed
-# Search for Aidl
-# Run '/content/android-sdk/build-tools/35.0.0/aidl'
-# Cwd None
-# Downloading platform api target if necessary
-# Android packages installation done.
 # Run ['/usr/bin/python3', '-m', 'pythonforandroid.toolchain', 'aab', '-h', '--color=always', '--storage-dir=/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a', '--ndk-api=21', '--ignore-setup-py', '--debug']
 # Cwd /content/.buildozer/android/platform/python-for-android
 [WARNING]: prerequisites.py is experimental and does not support all prerequisites yet.
@@ -911,7 +158,7 @@ options:
 [INFO]:    # Creating dist with sdl2 bootstrap
 [INFO]:    Dist will have name githubupdater and requirements (python3, kivy, requests)
 [INFO]:    Dist contains the following requirements as recipes: ['hostpython3', 'libffi', 'openssl', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sqlite3', 'python3', 'sdl2', 'setuptools', 'six', 'pyjnius', 'android', 'kivy']
-[INFO]:    Dist will also contain modules (urllib3, certifi, chardet, idna, requests) installed from pip
+[INFO]:    Dist will also contain modules (requests, certifi, idna, chardet, urllib3) installed from pip
 [INFO]:    Dist will be build in mode debug
 [INFO]:    -> directory context /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2
 [INFO]:    <- directory context /content/.buildozer/android/platform/python-for-android
@@ -997,9 +244,7 @@ options:
 [INFO]:    -> directory context /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/kivy
 [DEBUG]:   -> running basename https://github.com/kivy/kivy/archive/2.1.0.zip
 [DEBUG]:   	2.1.0.zip
-[DEBUG]:   Downloading kivy from https://github.com/kivy/kivy/archive/2.1.0.zip
-[DEBUG]:   -> running rm -f .mark-2.1.0.zip
-[INFO]:    Downloading kivy from https://github.com/kivy/kivy/archive/2.1.0.zip
+[INFO]:    kivy download already cached, skipping
 [INFO]:    <- directory context /content/.buildozer/android/platform/python-for-android
 [INFO]:    # Building all recipes for arch arm64-v8a
 [INFO]:    # Unpacking recipes
@@ -1117,42 +362,42 @@ options:
 remote: Counting objects: 100% (309/309), done.
 remote: Compressing objects: 100% (184/184), done.
 remote: Total 309 (delta 138), reused 291 (delta 122), pack-reused 0
-Receiving objects: 100% (309/309), 1.15 MiB | 3.04 MiB/s, done.
+Receiving objects: 100% (309/309), 1.15 MiB | 2.95 MiB/s, done.
 Resolving deltas: 100% (138/138), done.
 [DEBUG]:   	Cloning into 'external/libpng'...
 [DEBUG]:   	remote: Enumerating objects: 108512, done.
 remote: Counting objects: 100% (14/14), done.
 remote: Compressing objects: 100% (13/13), done.
 remote: Total 108512 (delta 4), reused 4 (delta 1), pack-reused 108498
-Receiving objects: 100% (108512/108512), 39.67 MiB | 18.88 MiB/s, done.
+Receiving objects: 100% (108512/108512), 39.67 MiB | 22.43 MiB/s, done.
 Resolving deltas: 100% (98054/98054), done.
 [DEBUG]:   	Cloning into 'external/libwebp'...
 [DEBUG]:   	remote: Enumerating objects: 28101, done.
 remote: Counting objects: 100% (2616/2616), done.
-remote: Compressing objects: 100% (957/957), done.
-remote: Total 28101 (delta 1800), reused 2127 (delta 1648), pack-reused 25485
-Receiving objects: 100% (28101/28101), 12.26 MiB | 15.17 MiB/s, done.
-Resolving deltas: 100% (21341/21341), done.
+remote: Compressing objects: 100% (958/958), done.
+remote: Total 28101 (delta 1797), reused 2126 (delta 1647), pack-reused 25485
+Receiving objects: 100% (28101/28101), 12.26 MiB | 14.79 MiB/s, done.
+Resolving deltas: 100% (21338/21338), done.
 [DEBUG]:   	Cloning into 'external/libtiff'...
 [DEBUG]:   	remote: Enumerating objects: 31233, done.
 remote: Counting objects: 100% (5429/5429), done.
 remote: Compressing objects: 100% (1635/1635), done.
 remote: Total 31233 (delta 3967), reused 5086 (delta 3740), pack-reused 25804
-Receiving objects: 100% (31233/31233), 12.96 MiB | 12.41 MiB/s, done.
+Receiving objects: 100% (31233/31233), 12.96 MiB | 14.98 MiB/s, done.
 Resolving deltas: 100% (24378/24378), done.
 [DEBUG]:   	Cloning into 'external/zlib'...
 [DEBUG]:   	remote: Enumerating objects: 6668, done.
 remote: Counting objects: 100% (125/125), done.
 remote: Compressing objects: 100% (83/83), done.
 remote: Total 6668 (delta 56), reused 90 (delta 42), pack-reused 6543
-Receiving objects: 100% (6668/6668), 4.22 MiB | 7.45 MiB/s, done.
+Receiving objects: 100% (6668/6668), 4.22 MiB | 7.77 MiB/s, done.
 Resolving deltas: 100% (4744/4744), done.
 [DEBUG]:   	Cloning into 'external/libjxl'...
 [DEBUG]:   	remote: Enumerating objects: 32324, done.
 remote: Counting objects: 100% (8494/8494), done.
 remote: Compressing objects: 100% (1071/1071), done.
 remote: Total 32324 (delta 7873), reused 7555 (delta 7423), pack-reused 23830
-Receiving objects: 100% (32324/32324), 34.93 MiB | 22.12 MiB/s, done.
+Receiving objects: 100% (32324/32324), 34.93 MiB | 22.01 MiB/s, done.
 Resolving deltas: 100% (26533/26533), done.
 [DEBUG]:   	Submodule 'third_party/brotli' (https://github.com/libsdl-org/brotli.git) registered for path 'third_party/brotli'
 [DEBUG]:   	Submodule 'third_party/googletest' (https://github.com/google/googletest) registered for path 'third_party/googletest'
@@ -1166,46 +411,46 @@ Resolving deltas: 100% (26533/26533), done.
 remote: Counting objects: 100% (1075/1075), done.
 remote: Compressing objects: 100% (386/386), done.
 remote: Total 7550 (delta 762), reused 834 (delta 673), pack-reused 6475
-Receiving objects: 100% (7550/7550), 36.59 MiB | 18.22 MiB/s, done.
+Receiving objects: 100% (7550/7550), 36.59 MiB | 21.62 MiB/s, done.
 Resolving deltas: 100% (4895/4895), done.
 [DEBUG]:   	Cloning into '/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libjxl/third_party/googletest'...
 [DEBUG]:   	remote: Enumerating objects: 27551, done.
 remote: Counting objects: 100% (89/89), done.
 remote: Compressing objects: 100% (55/55), done.
-remote: Total 27551 (delta 39), reused 47 (delta 27), pack-reused 27462
-Receiving objects: 100% (27551/27551), 12.87 MiB | 14.44 MiB/s, done.
-Resolving deltas: 100% (20452/20452), done.
+remote: Total 27551 (delta 39), reused 49 (delta 27), pack-reused 27462
+Receiving objects: 100% (27551/27551), 12.86 MiB | 14.78 MiB/s, done.
+Resolving deltas: 100% (20448/20448), done.
 [DEBUG]:   	Cloning into '/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libjxl/third_party/highway'...
 [DEBUG]:   	remote: Enumerating objects: 18087, done.
 remote: Counting objects: 100% (32/32), done.
 remote: Compressing objects: 100% (22/22), done.
 remote: Total 18087 (delta 10), reused 27 (delta 10), pack-reused 18055
-Receiving objects: 100% (18087/18087), 20.43 MiB | 16.08 MiB/s, done.
+Receiving objects: 100% (18087/18087), 20.43 MiB | 15.96 MiB/s, done.
 Resolving deltas: 100% (14212/14212), done.
 [DEBUG]:   	Cloning into '/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libjxl/third_party/lcms'...
 [DEBUG]:   	remote: Enumerating objects: 8158, done.
 remote: Counting objects: 100% (3317/3317), done.
 remote: Compressing objects: 100% (854/854), done.
 remote: Total 8158 (delta 2673), reused 2695 (delta 2443), pack-reused 4841
-Receiving objects: 100% (8158/8158), 91.08 MiB | 24.55 MiB/s, done.
+Receiving objects: 100% (8158/8158), 91.08 MiB | 27.61 MiB/s, done.
 Resolving deltas: 100% (5799/5799), done.
 [DEBUG]:   	Cloning into '/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libjxl/third_party/lodepng'...
 [DEBUG]:   	remote: Enumerating objects: 2703, done.
 remote: Counting objects: 100% (300/300), done.
 remote: Compressing objects: 100% (67/67), done.
 remote: Total 2703 (delta 240), reused 234 (delta 233), pack-reused 2403
-Receiving objects: 100% (2703/2703), 1.42 MiB | 3.68 MiB/s, done.
+Receiving objects: 100% (2703/2703), 1.42 MiB | 3.84 MiB/s, done.
 Resolving deltas: 100% (1170/1170), done.
 [DEBUG]:   	Cloning into '/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libjxl/third_party/sjpeg'...
 [DEBUG]:   	remote: Enumerating objects: 957, done.
 remote: Counting objects: 100% (126/126), done.
 remote: Compressing objects: 100% (87/87), done.
 remote: Total 957 (delta 53), reused 79 (delta 35), pack-reused 831
-Receiving objects: 100% (957/957), 2.68 MiB | 5.44 MiB/s, done.
+Receiving objects: 100% (957/957), 2.68 MiB | 5.52 MiB/s, done.
 Resolving deltas: 100% (593/593), done.
 [DEBUG]:   	Cloning into '/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libjxl/third_party/skcms'...
 remote: Total 5352 (delta 2458), reused 5352 (delta 2458)
-Receiving objects: 100% (5352/5352), 13.47 MiB | 22.87 MiB/s, done.
+Receiving objects: 100% (5352/5352), 13.47 MiB | 18.10 MiB/s, done.
 Resolving deltas: 100% (2458/2458), done.
 [DEBUG]:   	Submodule path 'third_party/brotli': checked out '2ae7ff838d1a7ba9726ef0f9b3e42d9eadc5d252'
 [DEBUG]:   	Submodule 'research/esaxx' (https://github.com/hillbig/esaxx) registered for path 'third_party/brotli/research/esaxx'
@@ -1213,14 +458,14 @@ Resolving deltas: 100% (2458/2458), done.
 [DEBUG]:   	Cloning into '/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libjxl/third_party/brotli/research/esaxx'...
 [DEBUG]:   	remote: Enumerating objects: 32, done.
 remote: Total 32 (delta 0), reused 0 (delta 0), pack-reused 32
-Receiving objects: 100% (32/32), 345.18 KiB | 1.36 MiB/s, done.
+Receiving objects: 100% (32/32), 345.18 KiB | 1.10 MiB/s, done.
 Resolving deltas: 100% (10/10), done.
 [DEBUG]:   	Cloning into '/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libjxl/third_party/brotli/research/libdivsufsort'...
 [DEBUG]:   	remote: Enumerating objects: 210, done.
 remote: Counting objects: 100% (79/79), done.
 remote: Compressing objects: 100% (16/16), done.
 remote: Total 210 (delta 67), reused 63 (delta 63), pack-reused 131
-Receiving objects: 100% (210/210), 97.29 KiB | 766.00 KiB/s, done.
+Receiving objects: 100% (210/210), 97.29 KiB | 772.00 KiB/s, done.
 Resolving deltas: 100% (133/133), done.
 [DEBUG]:   	Submodule path 'third_party/brotli/research/esaxx': checked out 'ca7cb332011ec37a8436487f210f396b84bd8273'
 [DEBUG]:   	Submodule path 'third_party/brotli/research/libdivsufsort': checked out '5f60d6f026c30fb4ac296f696b3c8b0eb71bd428'
@@ -1235,14 +480,14 @@ Resolving deltas: 100% (133/133), done.
 remote: Counting objects: 100% (2813/2813), done.
 remote: Compressing objects: 100% (316/316), done.
 remote: Total 16338 (delta 2624), reused 2555 (delta 2490), pack-reused 13525
-Receiving objects: 100% (16338/16338), 22.59 MiB | 18.42 MiB/s, done.
+Receiving objects: 100% (16338/16338), 22.59 MiB | 18.16 MiB/s, done.
 Resolving deltas: 100% (10519/10519), done.
 [DEBUG]:   	Cloning into 'external/dav1d'...
 [DEBUG]:   	remote: Enumerating objects: 15162, done.
 remote: Counting objects: 100% (2955/2955), done.
 remote: Compressing objects: 100% (719/719), done.
 remote: Total 15162 (delta 2356), reused 2261 (delta 2236), pack-reused 12207
-Receiving objects: 100% (15162/15162), 7.79 MiB | 10.44 MiB/s, done.
+Receiving objects: 100% (15162/15162), 7.79 MiB | 11.77 MiB/s, done.
 Resolving deltas: 100% (11677/11677), done.
 [INFO]:    <- directory context /content/.buildozer/android/platform/python-for-android
 [INFO]:    sdl2_image has no prebuild_arm64_v8a, skipping
@@ -2476,7 +1721,6 @@ Resolving deltas: 100% (11677/11677), done.
 [DEBUG]:   	running build
 [DEBUG]:   	running build_ext
 [DEBUG]:   	building 'array' extension
-[DEBUG]:   	building '_contextvars' extension
 [DEBUG]:   	creating build/temp.linux-x86_64-3.11/content
 [DEBUG]:   	creating build/temp.linux-x86_64-3.11/content/.buildozer
 [DEBUG]:   	creating build/temp.linux-x86_64-3.11/content/.buildozer/android
@@ -2488,8 +1732,9 @@ Resolving deltas: 100% (11677/11677), done.
 [DEBUG]:   	creating build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop
 [DEBUG]:   	creating build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3
 [DEBUG]:   	creating build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules
-[DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_contextvarsmodule.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_contextvarsmodule.o
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/arraymodule.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/arraymodule.o
+[DEBUG]:   	building '_contextvars' extension
+[DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_contextvarsmodule.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_contextvarsmodule.o
 [DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_contextvarsmodule.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_contextvars.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building 'math' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/mathmodule.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/mathmodule.o
@@ -2506,15 +1751,15 @@ Resolving deltas: 100% (11677/11677), done.
 [DEBUG]:   	building '_random' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_randommodule.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_randommodule.o
 [DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_randommodule.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_random.cpython-311-x86_64-linux-gnu.so
-[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_datetimemodule.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -lm -o build/lib.linux-x86_64-3.11/_datetime.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building '_bisect' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_bisectmodule.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_bisectmodule.o
+[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_datetimemodule.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -lm -o build/lib.linux-x86_64-3.11/_datetime.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building '_heapq' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_heapqmodule.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_heapqmodule.o
-[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_heapqmodule.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_heapq.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_bisectmodule.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_bisect.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building '_pickle' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_pickle.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_pickle.o
+[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_heapqmodule.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_heapq.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building '_json' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_json.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_json.o
 [DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_json.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_json.cpython-311-x86_64-linux-gnu.so
@@ -2549,9 +1794,9 @@ Resolving deltas: 100% (11677/11677), done.
 [DEBUG]:   	building 'grp' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/grpmodule.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/grpmodule.o
 [DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/fcntlmodule.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/fcntl.cpython-311-x86_64-linux-gnu.so
-[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/grpmodule.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/grp.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building '_socket' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/socketmodule.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/socketmodule.o
+[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/grpmodule.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/grp.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building 'spwd' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/spwdmodule.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/spwdmodule.o
 [DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/spwdmodule.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/spwd.cpython-311-x86_64-linux-gnu.so
@@ -2572,10 +1817,10 @@ Resolving deltas: 100% (11677/11677), done.
 [DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_xxsubinterpretersmodule.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_xxsubinterpreters.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building '_csv' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_csv.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_csv.o
-[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_csv.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_csv.cpython-311-x86_64-linux-gnu.so
+[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/audioop.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -lm -o build/lib.linux-x86_64-3.11/audioop.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building '_posixsubprocess' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_posixsubprocess.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_posixsubprocess.o
-[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/audioop.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -lm -o build/lib.linux-x86_64-3.11/audioop.cpython-311-x86_64-linux-gnu.so
+[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_csv.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_csv.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building '_testcapi' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_testcapimodule.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_testcapimodule.o
 [DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_posixsubprocess.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_posixsubprocess.cpython-311-x86_64-linux-gnu.so
@@ -2594,13 +1839,13 @@ Resolving deltas: 100% (11677/11677), done.
 [DEBUG]:   	building '_testmultiphase' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_testmultiphase.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_testmultiphase.o
 [DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_testbuffer.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_testbuffer.cpython-311-x86_64-linux-gnu.so
+[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_testmultiphase.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_testmultiphase.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building '_xxtestfuzz' extension
 [DEBUG]:   	creating build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_xxtestfuzz
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_xxtestfuzz/_xxtestfuzz.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_xxtestfuzz/_xxtestfuzz.o
-[DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_xxtestfuzz/fuzzer.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_xxtestfuzz/fuzzer.o
-[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_testmultiphase.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_testmultiphase.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building 'readline' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/readline.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/readline.o
+[DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_xxtestfuzz/fuzzer.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_xxtestfuzz/fuzzer.o
 [DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_xxtestfuzz/_xxtestfuzz.o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_xxtestfuzz/fuzzer.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_xxtestfuzz.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building '_curses' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -DHAVE_NCURSESW=1 -I/usr/include/ncursesw -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_cursesmodule.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_cursesmodule.o
@@ -2633,10 +1878,10 @@ Resolving deltas: 100% (11677/11677), done.
 [DEBUG]:   	creating build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sha3
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sha3/sha3module.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sha3/sha3module.o
 [DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/sha512module.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_sha512.cpython-311-x86_64-linux-gnu.so
+[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sha3/sha3module.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_sha3.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building '_blake2' extension
 [DEBUG]:   	creating build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/blake2b_impl.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/blake2b_impl.o
-[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sha3/sha3module.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_sha3.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building '_sqlite3' extension
 [DEBUG]:   	creating build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/blob.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/blob.o
@@ -2652,12 +1897,12 @@ Resolving deltas: 100% (11677/11677), done.
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/resource.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/resource.o
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/microprotocols.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/microprotocols.o
 [DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/resource.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/resource.cpython-311-x86_64-linux-gnu.so
+[DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/module.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/module.o
 [DEBUG]:   	building 'ossaudiodev' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/ossaudiodev.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/ossaudiodev.o
-[DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/module.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/module.o
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/prepare_protocol.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/prepare_protocol.o
-[DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/row.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/row.o
 [DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/ossaudiodev.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/ossaudiodev.cpython-311-x86_64-linux-gnu.so
+[DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/row.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/row.o
 [DEBUG]:   	building 'nis' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I/usr/include/tirpc -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/nismodule.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/nismodule.o
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/statement.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/statement.o
@@ -2684,19 +1929,19 @@ Resolving deltas: 100% (11677/11677), done.
 [DEBUG]:   	building '_multibytecodec' extension
 [DEBUG]:   	creating build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/multibytecodec.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/multibytecodec.o
-[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/multibytecodec.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_multibytecodec.cpython-311-x86_64-linux-gnu.so
+[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_elementtree.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_elementtree.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building '_codecs_kr' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/_codecs_kr.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/_codecs_kr.o
-[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_elementtree.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_elementtree.cpython-311-x86_64-linux-gnu.so
+[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/multibytecodec.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_multibytecodec.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building '_codecs_jp' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/_codecs_jp.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/_codecs_jp.o
 [DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/_codecs_kr.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_codecs_kr.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building '_codecs_cn' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/_codecs_cn.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/_codecs_cn.o
-[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/_codecs_cn.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_codecs_cn.cpython-311-x86_64-linux-gnu.so
+[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/_codecs_jp.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_codecs_jp.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building '_codecs_tw' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/_codecs_tw.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/_codecs_tw.o
-[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/_codecs_jp.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_codecs_jp.cpython-311-x86_64-linux-gnu.so
+[DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/_codecs_cn.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_codecs_cn.cpython-311-x86_64-linux-gnu.so
 [DEBUG]:   	building '_codecs_hk' extension
 [DEBUG]:   	gcc -fPIC -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal -I. -IObjects -IPython -I/usr/include/x86_64-linux-gnu -I/usr/local/include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include -I/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build -c /content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/_codecs_hk.c -o build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/_codecs_hk.o
 [DEBUG]:   	gcc -shared build/temp.linux-x86_64-3.11/content/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/cjkcodecs/_codecs_tw.o -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -o build/lib.linux-x86_64-3.11/_codecs_tw.cpython-311-x86_64-linux-gnu.so
@@ -2856,7 +2101,7 @@ Resolving deltas: 100% (11677/11677), done.
 [DEBUG]:   	      See the Autoconf documentation.
 [DEBUG]:   	configure:8578: error: possibly undefined macro: AC_PROG_LD
 [DEBUG]:   	autoreconf: error: /usr/bin/autoconf failed with exit status: 1
-Exception in thread background thread for pid 82259:
+Exception in thread background thread for pid 97714:
 Traceback (most recent call last):
   File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
     self.run()
