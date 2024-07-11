@@ -1,0 +1,197 @@
+!buildozer -v android debug
+# Check configuration tokens
+Buildozer is running as root!
+This is not recommended, and may lead to problems later.
+Are you sure you want to continue [y/n]? y
+# `android.archs` not detected, instead `android.arch` is present.
+# `android.arch` will be removed and ignored in future.
+# If you're seeing this error, please migrate to `android.archs`.
+# Ensure build layout
+# Check configuration tokens
+# Preparing build
+# Check requirements for android
+# Search for Git (git)
+#  -> found at /usr/bin/git
+# Search for Cython (cython)
+#  -> found at /usr/local/bin/cython
+# Search for Java compiler (javac)
+#  -> found at /usr/lib/jvm/java-11-openjdk-amd64/bin/javac
+# Search for Java keytool (keytool)
+#  -> found at /usr/lib/jvm/java-11-openjdk-amd64/bin/keytool
+# Install platform
+# Run ['git', 'config', '--get', 'remote.origin.url']
+# Cwd /content/myapp/.buildozer/android/platform/python-for-android
+https://github.com/kivy/python-for-android.git
+# Run ['git', 'branch', '-vv']
+# Cwd /content/myapp/.buildozer/android/platform/python-for-android
+* master 957a3e5f [origin/master] Merge pull request #2959 from kivy/release-2024.01.21
+# Run ['/usr/bin/python3', '-m', 'pip', 'install', '-q', '--user', 'appdirs', 'colorama>=0.3.3', 'jinja2', 'sh>=1.10, <2.0; sys_platform!="win32"', 'build', 'toml', 'packaging', 'setuptools']
+# Cwd None
+# Apache ANT found at /root/.buildozer/android/platform/apache-ant-1.9.4
+# Android SDK found at /content/android-sdk
+# Android NDK found at /content/android-ndk
+# Recommended android's NDK version by p4a is: 25b
+# Installing/updating SDK platform tools if necessary
+# Run (expect) ['/content/android-sdk/tools/bin/sdkmanager', '--sdk_root=/content/android-sdk', 'platform-tools']
+# Cwd /content/android-sdk
+Exception in thread "main" java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlSchema
+	at com.android.repository.api.SchemaModule$SchemaModuleVersion.<init>(SchemaModule.java:156)
+	at com.android.repository.api.SchemaModule.<init>(SchemaModule.java:75)
+	at com.android.sdklib.repository.AndroidSdkHandler.<clinit>(AndroidSdkHandler.java:81)
+	at com.android.sdklib.tool.sdkmanager.SdkManagerCli.main(SdkManagerCli.java:73)
+	at com.android.sdklib.tool.sdkmanager.SdkManagerCli.main(SdkManagerCli.java:48)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlSchema
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+# Run (expect) ['/content/android-sdk/tools/bin/sdkmanager', '--sdk_root=/content/android-sdk', '--update']
+# Cwd /content/android-sdk
+Exception in thread "main" java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlSchema
+	at com.android.repository.api.SchemaModule$SchemaModuleVersion.<init>(SchemaModule.java:156)
+	at com.android.repository.api.SchemaModule.<init>(SchemaModule.java:75)
+	at com.android.sdklib.repository.AndroidSdkHandler.<clinit>(AndroidSdkHandler.java:81)
+	at com.android.sdklib.tool.sdkmanager.SdkManagerCli.main(SdkManagerCli.java:73)
+	at com.android.sdklib.tool.sdkmanager.SdkManagerCli.main(SdkManagerCli.java:48)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlSchema
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+# Updating SDK build tools if necessary
+# Run ['/content/android-sdk/tools/bin/sdkmanager', '--sdk_root=/content/android-sdk', '--list']
+# Cwd /content/android-sdk
+Exception in thread "main" java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlSchema
+	at com.android.repository.api.SchemaModule$SchemaModuleVersion.<init>(SchemaModule.java:156)
+	at com.android.repository.api.SchemaModule.<init>(SchemaModule.java:75)
+	at com.android.sdklib.repository.AndroidSdkHandler.<clinit>(AndroidSdkHandler.java:81)
+	at com.android.sdklib.tool.sdkmanager.SdkManagerCli.main(SdkManagerCli.java:73)
+	at com.android.sdklib.tool.sdkmanager.SdkManagerCli.main(SdkManagerCli.java:48)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlSchema
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+# Command failed: ['/content/android-sdk/tools/bin/sdkmanager', '--sdk_root=/content/android-sdk', '--list']
+# ENVIRONMENT:
+#     SHELL = '/bin/bash'
+#     NV_LIBCUBLAS_VERSION = '12.2.5.6-1'
+#     NVIDIA_VISIBLE_DEVICES = 'all'
+#     COLAB_JUPYTER_TRANSPORT = 'ipc'
+#     NV_NVML_DEV_VERSION = '12.2.140-1'
+#     NV_CUDNN_PACKAGE_NAME = 'libcudnn8'
+#     CGROUP_MEMORY_EVENTS = '/sys/fs/cgroup/memory.events /var/colab/cgroup/jupyter-children/memory.events'
+#     NV_LIBNCCL_DEV_PACKAGE = 'libnccl-dev=2.19.3-1+cuda12.2'
+#     NV_LIBNCCL_DEV_PACKAGE_VERSION = '2.19.3-1'
+#     VM_GCE_METADATA_HOST = '169.254.169.253'
+#     HOSTNAME = '8ae72246b99d'
+#     LANGUAGE = 'en_US'
+#     TBE_RUNTIME_ADDR = '172.28.0.1:8011'
+#     COLAB_TPU_1VM = ''
+#     GCE_METADATA_TIMEOUT = '3'
+#     JAVA_HOME = '/usr/lib/jvm/java-11-openjdk-amd64'
+#     NVIDIA_REQUIRE_CUDA = ('cuda>=12.2 brand=tesla,driver>=470,driver<471 '
+ 'brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 '
+ 'brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 '
+ 'brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 '
+ 'brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 '
+ 'brand=titanrtx,driver>=470,driver<471 brand=tesla,driver>=525,driver<526 '
+ 'brand=unknown,driver>=525,driver<526 brand=nvidia,driver>=525,driver<526 '
+ 'brand=nvidiartx,driver>=525,driver<526 brand=geforce,driver>=525,driver<526 '
+ 'brand=geforcertx,driver>=525,driver<526 brand=quadro,driver>=525,driver<526 '
+ 'brand=quadrortx,driver>=525,driver<526 brand=titan,driver>=525,driver<526 '
+ 'brand=titanrtx,driver>=525,driver<526')
+#     NV_LIBCUBLAS_DEV_PACKAGE = 'libcublas-dev-12-2=12.2.5.6-1'
+#     NV_NVTX_VERSION = '12.2.140-1'
+#     COLAB_JUPYTER_IP = '172.28.0.12'
+#     NV_CUDA_CUDART_DEV_VERSION = '12.2.140-1'
+#     NV_LIBCUSPARSE_VERSION = '12.1.2.141-1'
+#     COLAB_LANGUAGE_SERVER_PROXY_ROOT_URL = 'http://172.28.0.1:8013/'
+#     NV_LIBNPP_VERSION = '12.2.1.4-1'
+#     NCCL_VERSION = '2.19.3-1'
+#     KMP_LISTEN_PORT = '6000'
+#     TF_FORCE_GPU_ALLOW_GROWTH = 'true'
+#     ENV = '/root/.bashrc'
+#     PWD = '/content/myapp'
+#     COLAB_LANGUAGE_SERVER_PROXY_REQUEST_TIMEOUT = '30s'
+#     TBE_EPHEM_CREDS_ADDR = '172.28.0.1:8009'
+#     TBE_CREDS_ADDR = '172.28.0.1:8008'
+#     NV_CUDNN_PACKAGE = 'libcudnn8=8.9.6.50-1+cuda12.2'
+#     NVIDIA_DRIVER_CAPABILITIES = 'compute,utility'
+#     COLAB_JUPYTER_TOKEN = ''
+#     LAST_FORCED_REBUILD = '20240627'
+#     NV_NVPROF_DEV_PACKAGE = 'cuda-nvprof-12-2=12.2.142-1'
+#     NV_LIBNPP_PACKAGE = 'libnpp-12-2=12.2.1.4-1'
+#     NV_LIBNCCL_DEV_PACKAGE_NAME = 'libnccl-dev'
+#     TCLLIBPATH = '/usr/share/tcltk/tcllib1.20'
+#     NV_LIBCUBLAS_DEV_VERSION = '12.2.5.6-1'
+#     COLAB_KERNEL_MANAGER_PROXY_HOST = '172.28.0.12'
+#     NVIDIA_PRODUCT_NAME = 'CUDA'
+#     NV_LIBCUBLAS_DEV_PACKAGE_NAME = 'libcublas-dev-12-2'
+#     USE_AUTH_EPHEM = '1'
+#     NV_CUDA_CUDART_VERSION = '12.2.140-1'
+#     COLAB_WARMUP_DEFAULTS = '1'
+#     HOME = '/root'
+#     LANG = 'en_US.UTF-8'
+#     COLUMNS = '100'
+#     CUDA_VERSION = '12.2.2'
+#     CLOUDSDK_CONFIG = '/content/.config'
+#     NV_LIBCUBLAS_PACKAGE = 'libcublas-12-2=12.2.5.6-1'
+#     NV_CUDA_NSIGHT_COMPUTE_DEV_PACKAGE = 'cuda-nsight-compute-12-2=12.2.2-1'
+#     COLAB_RELEASE_TAG = 'release-colab_20240709-060151_RC00'
+#     PYDEVD_USE_FRAME_EVAL = 'NO'
+#     KMP_TARGET_PORT = '9000'
+#     CLICOLOR = '1'
+#     KMP_EXTRA_ARGS = ('--logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 '
+ '--tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/m-s-1euxvei6mc8e8 '
+ '--tunnel_background_save_delay=10s '
+ '--tunnel_periodic_background_save_frequency=30m0s '
+ '--enable_output_coalescing=true --output_coalescing_required=true')
+#     NV_LIBNPP_DEV_PACKAGE = 'libnpp-dev-12-2=12.2.1.4-1'
+#     COLAB_LANGUAGE_SERVER_PROXY_LSP_DIRS = '/datalab/web/pyright/typeshed-fallback/stdlib,/usr/local/lib/python3.10/dist-packages'
+#     NV_LIBCUBLAS_PACKAGE_NAME = 'libcublas-12-2'
+#     COLAB_KERNEL_MANAGER_PROXY_PORT = '6000'
+#     CLOUDSDK_PYTHON = 'python3'
+#     NV_LIBNPP_DEV_VERSION = '12.2.1.4-1'
+#     ENABLE_DIRECTORYPREFETCHER = '1'
+#     NO_GCE_CHECK = 'False'
+#     JPY_PARENT_PID = '84'
+#     ANDROID_HOME = '/content/android-sdk'
+#     PYTHONPATH = '/env/python'
+#     TERM = 'xterm-color'
+#     NV_LIBCUSPARSE_DEV_VERSION = '12.1.2.141-1'
+#     GIT_PAGER = 'cat'
+#     LIBRARY_PATH = '/usr/local/cuda/lib64/stubs'
+#     NV_CUDNN_VERSION = '8.9.6.50'
+#     SHLVL = '0'
+#     PAGER = 'cat'
+#     COLAB_LANGUAGE_SERVER_PROXY = '/usr/colab/bin/language_service'
+#     NV_CUDA_LIB_VERSION = '12.2.2-1'
+#     NVARCH = 'x86_64'
+#     NV_CUDNN_PACKAGE_DEV = 'libcudnn8-dev=8.9.6.50-1+cuda12.2'
+#     NV_CUDA_COMPAT_PACKAGE = 'cuda-compat-12-2'
+#     MPLBACKEND = 'module://ipykernel.pylab.backend_inline'
+#     NV_LIBNCCL_PACKAGE = 'libnccl2=2.19.3-1+cuda12.2'
+#     LD_LIBRARY_PATH = '/usr/local/nvidia/lib:/usr/local/nvidia/lib64'
+#     COLAB_GPU = ''
+#     GCS_READ_CACHE_BLOCK_SIZE_MB = '16'
+#     NV_CUDA_NSIGHT_COMPUTE_VERSION = '12.2.2-1'
+#     NV_NVPROF_VERSION = '12.2.142-1'
+#     LC_ALL = 'en_US.UTF-8'
+#     COLAB_FILE_HANDLER_ADDR = 'localhost:3453'
+#     PATH = '/root/.buildozer/android/platform/apache-ant-1.9.4/bin:/content/android-sdk/cmdline-tools/latest/bin:/content/android-sdk/cmdline-tools/latest/bin:/opt/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/tools/node/bin:/tools/google-cloud-sdk/bin'
+#     NV_LIBNCCL_PACKAGE_NAME = 'libnccl2'
+#     COLAB_DEBUG_ADAPTER_MUX_PATH = '/usr/local/bin/dap_multiplexer'
+#     NV_LIBNCCL_PACKAGE_VERSION = '2.19.3-1'
+#     PYTHONWARNINGS = 'ignore:::pip._internal.cli.base_command'
+#     DEBIAN_FRONTEND = 'noninteractive'
+#     COLAB_BACKEND_VERSION = 'next'
+#     COLAB_CUSTOMIZE_FOR_VM_TYPE = '1'
+#     OLDPWD = '/'
+#     _ = '/usr/local/bin/buildozer'
+# 
+# Buildozer failed to execute the last command
+# The error might be hidden in the log above this error
+# Please read the full log, and search for it before
+# raising an issue with buildozer itself.
+# In case of a bug report, please add a full log with log_level = 2
