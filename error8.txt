@@ -1,0 +1,344 @@
+# Check configuration tokens
+Buildozer is running as root!
+This is not recommended, and may lead to problems later.
+Are you sure you want to continue [y/n]? y
+# `android.archs` not detected, instead `android.arch` is present.
+# `android.arch` will be removed and ignored in future.
+# If you're seeing this error, please migrate to `android.archs`.
+# WARNING: Config token app android.sdk is deprecated and ignored, but you set value 30
+# Ensure build layout
+# Check configuration tokens
+# Run ['/usr/bin/python3', '-m', 'pythonforandroid.toolchain', 'clean_builds', '--color=always', '--storage-dir=/content/.buildozer/android/platform/build-armeabi-v7a', '--ndk-api=21', '--ignore-setup-py', '--debug']
+# Cwd /content/.buildozer/android/platform/python-for-android
+[WARNING]: prerequisites.py is experimental and does not support all prerequisites yet.
+[WARNING]: Please report any issues to the python-for-android issue tracker.
+[WARNING]: prerequisites.py is experimental and does not support all prerequisites yet.
+[WARNING]: Please report any issues to the python-for-android issue tracker.
+[DEBUG]:   Remove directory and subdirectory /content/.buildozer/android/platform/build-armeabi-v7a/build
+[DEBUG]:   Create directory /content/.buildozer/android/platform/build-armeabi-v7a/build/python-installs
+[DEBUG]:   Remove directory and subdirectory /content/.buildozer/android/platform/build-armeabi-v7a/build/python-installs
+# Run ['/usr/bin/python3', '-m', 'pythonforandroid.toolchain', 'clean_dists', '--color=always', '--storage-dir=/content/.buildozer/android/platform/build-armeabi-v7a', '--ndk-api=21', '--ignore-setup-py', '--debug']
+# Cwd /content/.buildozer/android/platform/python-for-android
+[WARNING]: prerequisites.py is experimental and does not support all prerequisites yet.
+[WARNING]: Please report any issues to the python-for-android issue tracker.
+[WARNING]: prerequisites.py is experimental and does not support all prerequisites yet.
+[WARNING]: Please report any issues to the python-for-android issue tracker.
+[DEBUG]:   Remove directory and subdirectory /content/.buildozer/android/platform/build-armeabi-v7a/dists
+# Check configuration tokens
+Buildozer is running as root!
+This is not recommended, and may lead to problems later.
+Are you sure you want to continue [y/n]? y
+# `android.archs` not detected, instead `android.arch` is present.
+# `android.arch` will be removed and ignored in future.
+# If you're seeing this error, please migrate to `android.archs`.
+# WARNING: Config token app android.sdk is deprecated and ignored, but you set value 30
+# Ensure build layout
+# Check configuration tokens
+# Preparing build
+# Check requirements for android
+# Search for Git (git)
+#  -> found at /usr/bin/git
+# Search for Cython (cython)
+#  -> found at /usr/local/bin/cython
+# Search for Java compiler (javac)
+#  -> found at /usr/lib/jvm/java-11-openjdk-amd64/bin/javac
+# Search for Java keytool (keytool)
+#  -> found at /usr/lib/jvm/java-11-openjdk-amd64/bin/keytool
+# Install platform
+# Run ['git', 'config', '--get', 'remote.origin.url']
+# Cwd /content/.buildozer/android/platform/python-for-android
+https://github.com/kivy/python-for-android.git
+# Run ['git', 'branch', '-vv']
+# Cwd /content/.buildozer/android/platform/python-for-android
+* master 957a3e5f [origin/master] Merge pull request #2959 from kivy/release-2024.01.21
+# Run ['/usr/bin/python3', '-m', 'pip', 'install', '-q', '--user', 'appdirs', 'colorama>=0.3.3', 'jinja2', 'sh>=1.10, <2.0; sys_platform!="win32"', 'build', 'toml', 'packaging', 'setuptools']
+# Cwd None
+# Apache ANT found at /root/.buildozer/android/platform/apache-ant-1.9.4
+# Android SDK found at /content/android-sdk
+# Recommended android's NDK version by p4a is: 25b
+# Android NDK found at /root/.buildozer/android/platform/android-ndk-r25b
+# Run ['/usr/bin/python3', '-m', 'pythonforandroid.toolchain', 'aab', '-h', '--color=always', '--storage-dir=/content/.buildozer/android/platform/build-armeabi-v7a', '--ndk-api=21', '--ignore-setup-py', '--debug']
+# Cwd /content/.buildozer/android/platform/python-for-android
+[WARNING]: prerequisites.py is experimental and does not support all prerequisites yet.
+[WARNING]: Please report any issues to the python-for-android issue tracker.
+[WARNING]: prerequisites.py is experimental and does not support all prerequisites yet.
+[WARNING]: Please report any issues to the python-for-android issue tracker.
+usage: toolchain.py aab [-h] [--debug] [--color {always,never,auto}] [--sdk-dir SDK_DIR]
+                        [--ndk-dir NDK_DIR] [--android-api ANDROID_API]
+                        [--ndk-version NDK_VERSION] [--ndk-api NDK_API]
+                        [--symlink-bootstrap-files] [--storage-dir STORAGE_DIR] [--arch ARCH]
+                        [--dist-name DIST_NAME] [--requirements REQUIREMENTS]
+                        [--recipe-blacklist RECIPE_BLACKLIST]
+                        [--blacklist-requirements BLACKLIST_REQUIREMENTS] [--bootstrap BOOTSTRAP]
+                        [--hook HOOK] [--force-build] [--no-force-build] [--require-perfect-match]
+                        [--no-require-perfect-match] [--allow-replace-dist]
+                        [--no-allow-replace-dist] [--local-recipes LOCAL_RECIPES]
+                        [--activity-class-name ACTIVITY_CLASS_NAME]
+                        [--service-class-name SERVICE_CLASS_NAME]
+                        [--java-build-tool {auto,ant,gradle}] [--copy-libs] [--no-copy-libs]
+                        [--add-asset ASSETS] [--add-resource RESOURCES] [--private PRIVATE]
+                        [--use-setup-py] [--ignore-setup-py] [--release] [--with-debug-symbols]
+                        [--keystore KEYSTORE] [--signkey SIGNKEY] [--keystorepw KEYSTOREPW]
+                        [--signkeypw SIGNKEYPW]
+
+options:
+  -h, --help            show this help message and exit
+  --debug               Display debug output and all build info
+  --color {always,never,auto}
+                        Enable or disable color output (default enabled on tty)
+  --sdk-dir SDK_DIR, --sdk_dir SDK_DIR
+                        The filepath where the Android SDK is installed
+  --ndk-dir NDK_DIR, --ndk_dir NDK_DIR
+                        The filepath where the Android NDK is installed
+  --android-api ANDROID_API, --android_api ANDROID_API
+                        The Android API level to build against defaults to 33 if not specified.
+  --ndk-version NDK_VERSION, --ndk_version NDK_VERSION
+                        DEPRECATED: the NDK version is now found automatically or not at all.
+  --ndk-api NDK_API     The Android API level to compile against. This should be your *minimal
+                        supported* API, not normally the same as your --android-api. Defaults to
+                        min(ANDROID_API, 21) if not specified.
+  --symlink-bootstrap-files, --ssymlink_bootstrap_files
+                        If True, symlinks the bootstrap files creation. This is useful for
+                        development only, it could also cause weird problems.
+  --storage-dir STORAGE_DIR
+                        Primary storage directory for downloads and builds (default:
+                        /root/.local/share/python-for-android)
+  --arch ARCH           The archs to build for.
+  --dist-name DIST_NAME, --dist_name DIST_NAME
+                        The name of the distribution to use or create
+  --requirements REQUIREMENTS
+                        Dependencies of your app, should be recipe names or Python modules. NOT
+                        NECESSARY if you are using Python 3 with --use-setup-py
+  --recipe-blacklist RECIPE_BLACKLIST
+                        Blacklist an internal recipe from use. Allows disabling Python 3 core
+                        modules to save size
+  --blacklist-requirements BLACKLIST_REQUIREMENTS
+                        Blacklist an internal recipe from use. Allows disabling Python 3 core
+                        modules to save size
+  --bootstrap BOOTSTRAP
+                        The bootstrap to build with. Leave unset to choose automatically.
+  --hook HOOK           Filename to a module that contains python-for-android hooks
+  --local-recipes LOCAL_RECIPES, --local_recipes LOCAL_RECIPES
+                        Directory to look for local recipes
+  --activity-class-name ACTIVITY_CLASS_NAME
+                        The full java class name of the main activity
+  --service-class-name SERVICE_CLASS_NAME
+                        Full java package name of the PythonService class
+  --java-build-tool {auto,ant,gradle}
+                        The java build tool to use when packaging the APK, defaults to
+                        automatically selecting an appropriate tool.
+  --add-asset ASSETS    Put this in the assets folder in the apk.
+  --add-resource RESOURCES
+                        Put this in the res folder in the apk.
+  --private PRIVATE     the directory with the app source code files (containing your main.py
+                        entrypoint)
+  --use-setup-py        Process the setup.py of a project if present. (Experimental!
+  --ignore-setup-py     Don't run the setup.py of a project if present. This may be required if
+                        the setup.py is not designed to work inside p4a (e.g. by installing
+                        dependencies that won't work or aren't desired on Android
+  --release             Build your app as a non-debug release build. (Disables gdb debugging among
+                        other things)
+  --with-debug-symbols  Will keep debug symbols from `.so` files.
+  --keystore KEYSTORE   Keystore for JAR signing key, will use jarsigner default if not specified
+                        (release build only)
+  --signkey SIGNKEY     Key alias to sign PARSER_APK. with (release build only)
+  --keystorepw KEYSTOREPW
+                        Password for keystore
+  --signkeypw SIGNKEYPW
+                        Password for key alias
+
+  Whether to force compilation of a new distribution
+
+  --force-build
+  --no-force-build      (this is the default)
+  --require-perfect-match
+  --no-require-perfect-match
+                        (this is the default)
+  --allow-replace-dist  (this is the default)
+  --no-allow-replace-dist
+  --copy-libs
+  --no-copy-libs        (this is the default)
+# Check application requirements
+# Compile platform
+# Run ['/usr/bin/python3', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=myapp', '--bootstrap=sdl2', '--requirements=python3,kivy,Cython==0.29.33', '--arch=armeabi-v7a', '--copy-libs', '--color=always', '--storage-dir=/content/.buildozer/android/platform/build-armeabi-v7a', '--ndk-api=21', '--ignore-setup-py', '--debug']
+# Cwd /content/.buildozer/android/platform/python-for-android
+[WARNING]: prerequisites.py is experimental and does not support all prerequisites yet.
+[WARNING]: Please report any issues to the python-for-android issue tracker.
+[WARNING]: prerequisites.py is experimental and does not support all prerequisites yet.
+[WARNING]: Please report any issues to the python-for-android issue tracker.
+[INFO]:    Recipe Cython: version "0.29.33" requested
+[INFO]:    Will compile for the following archs: armeabi-v7a
+[DEBUG]:   Create directory /content/.buildozer/android/platform/build-armeabi-v7a/dists
+[DEBUG]:   Create directory /content/.buildozer/android/platform/build-armeabi-v7a/build/bootstrap_builds
+[DEBUG]:   Create directory /content/.buildozer/android/platform/build-armeabi-v7a/build/other_builds
+[INFO]:    Found Android API target in $ANDROIDAPI: 30
+[INFO]:    Available Android APIs are (30)
+[INFO]:    Requested API target 30 is available, continuing.
+[INFO]:    Found NDK dir in $ANDROIDNDK: /root/.buildozer/android/platform/android-ndk-r25b
+[INFO]:    Found NDK version 25b
+[INFO]:    Getting NDK API version (i.e. minimum supported API) from user argument
+[INFO]:    ccache is missing, the build will not be optimized in the future.
+[DEBUG]:   All possible dists: []
+[DEBUG]:   Dist matching name and arch: []
+[DEBUG]:   Dist matching ndk_api and recipe: []
+[INFO]:    No existing dists meet the given requirements!
+[INFO]:    No dist exists that meets your requirements, so one will be built.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/content/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 1256, in <module>
+    main()
+  File "/content/.buildozer/android/platform/python-for-android/pythonforandroid/entrypoints.py", line 18, in main
+    ToolchainCL()
+  File "/content/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 685, in __init__
+    getattr(self, command)(args)
+  File "/content/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 104, in wrapper_func
+    build_dist_from_args(ctx, dist, args)
+  File "/content/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 132, in build_dist_from_args
+    get_recipe_order_and_bootstrap(
+  File "/content/.buildozer/android/platform/python-for-android/pythonforandroid/graph.py", line 269, in get_recipe_order_and_bootstrap
+    obvious_conflict_checker(ctx, names, blacklist=blacklist)
+  File "/content/.buildozer/android/platform/python-for-android/pythonforandroid/graph.py", line 176, in obvious_conflict_checker
+    recipe = Recipe.get_recipe(name, ctx)
+  File "/content/.buildozer/android/platform/python-for-android/pythonforandroid/recipe.py", line 706, in get_recipe
+    mod = import_recipe('pythonforandroid.recipes.{}'.format(name), recipe_file)
+  File "/content/.buildozer/android/platform/python-for-android/pythonforandroid/util.py", line 86, in load_source
+    spec.loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/content/.buildozer/android/platform/python-for-android/pythonforandroid/recipes/libffi/__init__.py", line 1, in <module>
+    from pythonforandroid.recipes.libffi import LibffiRecipe
+  File "/content/.buildozer/android/platform/python-for-android/pythonforandroid/recipes/libffi/__init__.py", line 1, in <module>
+    from pythonforandroid.recipes.libffi import LibffiRecipe
+ImportError: cannot import name 'LibffiRecipe' from partially initialized module 'pythonforandroid.recipes.libffi' (most likely due to a circular import) (/content/.buildozer/android/platform/python-for-android/pythonforandroid/recipes/libffi/__init__.py)
+# Command failed: ['/usr/bin/python3', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=myapp', '--bootstrap=sdl2', '--requirements=python3,kivy,Cython==0.29.33', '--arch=armeabi-v7a', '--copy-libs', '--color=always', '--storage-dir=/content/.buildozer/android/platform/build-armeabi-v7a', '--ndk-api=21', '--ignore-setup-py', '--debug']
+# ENVIRONMENT:
+#     SHELL = '/bin/bash'
+#     NV_LIBCUBLAS_VERSION = '12.2.5.6-1'
+#     NVIDIA_VISIBLE_DEVICES = 'all'
+#     COLAB_JUPYTER_TRANSPORT = 'ipc'
+#     NV_NVML_DEV_VERSION = '12.2.140-1'
+#     NV_CUDNN_PACKAGE_NAME = 'libcudnn8'
+#     CGROUP_MEMORY_EVENTS = '/sys/fs/cgroup/memory.events /var/colab/cgroup/jupyter-children/memory.events'
+#     NV_LIBNCCL_DEV_PACKAGE = 'libnccl-dev=2.19.3-1+cuda12.2'
+#     NV_LIBNCCL_DEV_PACKAGE_VERSION = '2.19.3-1'
+#     VM_GCE_METADATA_HOST = '169.254.169.253'
+#     HOSTNAME = '80be247cbdf8'
+#     LANGUAGE = 'en_US'
+#     TBE_RUNTIME_ADDR = '172.28.0.1:8011'
+#     COLAB_TPU_1VM = ''
+#     GCE_METADATA_TIMEOUT = '3'
+#     JAVA_HOME = '/usr/lib/jvm/java-8-openjdk-amd64'
+#     NVIDIA_REQUIRE_CUDA = ('cuda>=12.2 brand=tesla,driver>=470,driver<471 '
+ 'brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 '
+ 'brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 '
+ 'brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 '
+ 'brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 '
+ 'brand=titanrtx,driver>=470,driver<471 brand=tesla,driver>=525,driver<526 '
+ 'brand=unknown,driver>=525,driver<526 brand=nvidia,driver>=525,driver<526 '
+ 'brand=nvidiartx,driver>=525,driver<526 brand=geforce,driver>=525,driver<526 '
+ 'brand=geforcertx,driver>=525,driver<526 brand=quadro,driver>=525,driver<526 '
+ 'brand=quadrortx,driver>=525,driver<526 brand=titan,driver>=525,driver<526 '
+ 'brand=titanrtx,driver>=525,driver<526')
+#     NV_LIBCUBLAS_DEV_PACKAGE = 'libcublas-dev-12-2=12.2.5.6-1'
+#     NV_NVTX_VERSION = '12.2.140-1'
+#     COLAB_JUPYTER_IP = '172.28.0.12'
+#     NV_CUDA_CUDART_DEV_VERSION = '12.2.140-1'
+#     NV_LIBCUSPARSE_VERSION = '12.1.2.141-1'
+#     COLAB_LANGUAGE_SERVER_PROXY_ROOT_URL = 'http://172.28.0.1:8013/'
+#     NV_LIBNPP_VERSION = '12.2.1.4-1'
+#     NCCL_VERSION = '2.19.3-1'
+#     KMP_LISTEN_PORT = '6000'
+#     TF_FORCE_GPU_ALLOW_GROWTH = 'true'
+#     ENV = '/root/.bashrc'
+#     PWD = '/content'
+#     TBE_EPHEM_CREDS_ADDR = '172.28.0.1:8009'
+#     COLAB_LANGUAGE_SERVER_PROXY_REQUEST_TIMEOUT = '30s'
+#     TBE_CREDS_ADDR = '172.28.0.1:8008'
+#     NV_CUDNN_PACKAGE = 'libcudnn8=8.9.6.50-1+cuda12.2'
+#     NVIDIA_DRIVER_CAPABILITIES = 'compute,utility'
+#     COLAB_JUPYTER_TOKEN = ''
+#     LAST_FORCED_REBUILD = '20240627'
+#     NV_NVPROF_DEV_PACKAGE = 'cuda-nvprof-12-2=12.2.142-1'
+#     NV_LIBNPP_PACKAGE = 'libnpp-12-2=12.2.1.4-1'
+#     NV_LIBNCCL_DEV_PACKAGE_NAME = 'libnccl-dev'
+#     TCLLIBPATH = '/usr/share/tcltk/tcllib1.20'
+#     NV_LIBCUBLAS_DEV_VERSION = '12.2.5.6-1'
+#     COLAB_KERNEL_MANAGER_PROXY_HOST = '172.28.0.12'
+#     NVIDIA_PRODUCT_NAME = 'CUDA'
+#     NV_LIBCUBLAS_DEV_PACKAGE_NAME = 'libcublas-dev-12-2'
+#     USE_AUTH_EPHEM = '1'
+#     NV_CUDA_CUDART_VERSION = '12.2.140-1'
+#     COLAB_WARMUP_DEFAULTS = '1'
+#     HOME = '/root'
+#     LANG = 'en_US.UTF-8'
+#     COLUMNS = '100'
+#     CUDA_VERSION = '12.2.2'
+#     CLOUDSDK_CONFIG = '/content/.config'
+#     NV_LIBCUBLAS_PACKAGE = 'libcublas-12-2=12.2.5.6-1'
+#     NV_CUDA_NSIGHT_COMPUTE_DEV_PACKAGE = 'cuda-nsight-compute-12-2=12.2.2-1'
+#     COLAB_RELEASE_TAG = 'release-colab_20240709-060151_RC00'
+#     PYDEVD_USE_FRAME_EVAL = 'NO'
+#     KMP_TARGET_PORT = '9000'
+#     CLICOLOR = '1'
+#     KMP_EXTRA_ARGS = ('--logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 '
+ '--tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/m-s-3j2463d81dvdo '
+ '--tunnel_background_save_delay=10s '
+ '--tunnel_periodic_background_save_frequency=30m0s '
+ '--enable_output_coalescing=true --output_coalescing_required=true')
+#     NV_LIBNPP_DEV_PACKAGE = 'libnpp-dev-12-2=12.2.1.4-1'
+#     COLAB_LANGUAGE_SERVER_PROXY_LSP_DIRS = '/datalab/web/pyright/typeshed-fallback/stdlib,/usr/local/lib/python3.10/dist-packages'
+#     ANDROID_NDK_HOME = '/content/android-ndk-r25b'
+#     NV_LIBCUBLAS_PACKAGE_NAME = 'libcublas-12-2'
+#     COLAB_KERNEL_MANAGER_PROXY_PORT = '6000'
+#     CLOUDSDK_PYTHON = 'python3'
+#     NV_LIBNPP_DEV_VERSION = '12.2.1.4-1'
+#     ENABLE_DIRECTORYPREFETCHER = '1'
+#     NO_GCE_CHECK = 'False'
+#     JPY_PARENT_PID = '85'
+#     ANDROID_HOME = '/content/android-sdk'
+#     PYTHONPATH = '/env/python'
+#     TERM = 'xterm-color'
+#     NV_LIBCUSPARSE_DEV_VERSION = '12.1.2.141-1'
+#     GIT_PAGER = 'cat'
+#     LIBRARY_PATH = '/usr/local/cuda/lib64/stubs'
+#     NV_CUDNN_VERSION = '8.9.6.50'
+#     SHLVL = '0'
+#     PAGER = 'cat'
+#     COLAB_LANGUAGE_SERVER_PROXY = '/usr/colab/bin/language_service'
+#     NV_CUDA_LIB_VERSION = '12.2.2-1'
+#     NVARCH = 'x86_64'
+#     NV_CUDNN_PACKAGE_DEV = 'libcudnn8-dev=8.9.6.50-1+cuda12.2'
+#     NV_CUDA_COMPAT_PACKAGE = 'cuda-compat-12-2'
+#     MPLBACKEND = 'module://ipykernel.pylab.backend_inline'
+#     NV_LIBNCCL_PACKAGE = 'libnccl2=2.19.3-1+cuda12.2'
+#     LD_LIBRARY_PATH = '/usr/local/nvidia/lib:/usr/local/nvidia/lib64'
+#     COLAB_GPU = ''
+#     GCS_READ_CACHE_BLOCK_SIZE_MB = '16'
+#     NV_CUDA_NSIGHT_COMPUTE_VERSION = '12.2.2-1'
+#     NV_NVPROF_VERSION = '12.2.142-1'
+#     LC_ALL = 'en_US.UTF-8'
+#     COLAB_FILE_HANDLER_ADDR = 'localhost:3453'
+#     PATH = '/root/.buildozer/android/platform/apache-ant-1.9.4/bin:/content/android-sdk/cmdline-tools/latest/bin:/content/android-sdk/cmdline-tools/latest/bin:/content/android-sdk/cmdline-tools/latest/bin:/content/android-sdk/cmdline-tools/latest/bin:/content/android-sdk/cmdline-tools/latest/bin:/opt/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/tools/node/bin:/tools/google-cloud-sdk/bin'
+#     NV_LIBNCCL_PACKAGE_NAME = 'libnccl2'
+#     COLAB_DEBUG_ADAPTER_MUX_PATH = '/usr/local/bin/dap_multiplexer'
+#     NV_LIBNCCL_PACKAGE_VERSION = '2.19.3-1'
+#     PYTHONWARNINGS = 'ignore:::pip._internal.cli.base_command'
+#     DEBIAN_FRONTEND = 'noninteractive'
+#     COLAB_BACKEND_VERSION = 'next'
+#     COLAB_CUSTOMIZE_FOR_VM_TYPE = '1'
+#     OLDPWD = '/'
+#     _ = '/usr/local/bin/buildozer'
+#     PACKAGES_PATH = '/root/.buildozer/android/packages'
+#     ANDROIDSDK = '/content/android-sdk'
+#     ANDROIDNDK = '/root/.buildozer/android/platform/android-ndk-r25b'
+#     ANDROIDAPI = '30'
+#     ANDROIDMINAPI = '21'
+# 
+# Buildozer failed to execute the last command
+# The error might be hidden in the log above this error
+# Please read the full log, and search for it before
+# raising an issue with buildozer itself.
+# In case of a bug report, please add a full log with log_level = 2
